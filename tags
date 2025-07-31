@@ -1,0 +1,1112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABNORMAL	OAMS_define.h	70;"	d
+ALARM_AS_DISCONNECT	OAMS_define.h	73;"	d
+ALARM_CONFIG	OAMS_data.h	/^} ALARM_CONFIG;$/;"	t	typeref:struct:__anon29
+ALM_CODE_CSCF_DOWN	OAMS_define.h	145;"	d
+ALM_CODE_HW_DISK	OAMS_define.h	130;"	d
+ALM_CODE_HW_DISKREBUILD	OAMS_define.h	131;"	d
+ALM_CODE_HW_FAN	OAMS_define.h	128;"	d
+ALM_CODE_HW_NETWORK	OAMS_define.h	132;"	d
+ALM_CODE_HW_POWER	OAMS_define.h	129;"	d
+ALM_CODE_ISCPM_DOWN	OAMS_define.h	146;"	d
+ALM_CODE_ISCPS_DOWN	OAMS_define.h	147;"	d
+ALM_CODE_LIMIT_ASOVERLOAD	OAMS_define.h	134;"	d
+ALM_CODE_LIMIT_CHANNEL	OAMS_define.h	139;"	d
+ALM_CODE_LIMIT_CPU	OAMS_define.h	135;"	d
+ALM_CODE_LIMIT_DBSESSION	OAMS_define.h	142;"	d
+ALM_CODE_LIMIT_DISK	OAMS_define.h	138;"	d
+ALM_CODE_LIMIT_MEM	OAMS_define.h	136;"	d
+ALM_CODE_LIMIT_NET	OAMS_define.h	137;"	d
+ALM_CODE_LIMIT_NTP	OAMS_define.h	143;"	d
+ALM_CODE_LIMIT_TABLESPACE	OAMS_define.h	140;"	d
+ALM_CODE_LIMIT_TEMP	OAMS_define.h	141;"	d
+ALM_CODE_MRF_DOWN	OAMS_define.h	149;"	d
+ALM_CODE_PROCESS_DB	OAMS_define.h	123;"	d
+ALM_CODE_PROCESS_LISTENER	OAMS_define.h	124;"	d
+ALM_CODE_PROCESS_MCCS	OAMS_define.h	126;"	d
+ALM_CODE_PROCESS_WAS	OAMS_define.h	125;"	d
+ALM_LEVEL_CRITICAL	OAMS_define.h	121;"	d
+ALM_LEVEL_MAJOR	OAMS_define.h	120;"	d
+ALM_LEVEL_MINOR	OAMS_define.h	119;"	d
+ALM_LEVEL_WARN	OAMS_define.h	118;"	d
+ALM_MSG_V2	OAMS_define.h	/^} ALM_MSG_V2;$/;"	t	typeref:struct:__anon46
+ALM_OFF	OAMS_define.h	114;"	d
+ALM_ON	OAMS_define.h	115;"	d
+ALM_Q_MSG	OAMS_define.h	/^} ALM_Q_MSG;$/;"	t	typeref:struct:__anon47
+ALM_TYPE_ETC	OAMS_define.h	156;"	d
+ALM_TYPE_HW	OAMS_define.h	152;"	d
+ALM_TYPE_LIMIT	OAMS_define.h	153;"	d
+ALM_TYPE_PROCESS	OAMS_define.h	151;"	d
+ALM_TYPE_SERVICE	OAMS_define.h	155;"	d
+ALM_TYPE_SYSTEM	OAMS_define.h	154;"	d
+ALTIBASE_DB_H	OAMS_altiCInf.h	2;"	d
+AS_INFO	OAMS_data.h	/^} AS_INFO;$/;"	t	typeref:struct:__anon15
+AS_NAME_LEN	OAMS_define.h	95;"	d
+AS_STATS	OAMS_data.h	/^} AS_STATS;$/;"	t	typeref:struct:__anon21
+AddLabel	OAMS_exporter.cpp	/^void CExporter::AddLabel(const std::string& labelStr) {$/;"	f	class:CExporter
+AddLabelOnly	OAMS_exporter.cpp	/^void CExporter::AddLabelOnly(const std::string& labelStr) {$/;"	f	class:CExporter
+AfterLogicProcess	OAMS_alarm.cpp	/^int AlarmManager::AfterLogicProcess(ALM_Q_MSG* alarmData)$/;"	f	class:AlarmManager
+AlarmCode	OAMS_data.h	/^    int AlarmCode;$/;"	m	struct:__anon29
+AlarmConfigManager	OAMS_data.h	/^class AlarmConfigManager {$/;"	c
+AlarmDataAllDelete	OAMS_db.cpp	/^int AlarmDataAllDelete()$/;"	f
+AlarmDataDelete	OAMS_db.cpp	/^int AlarmDataDelete(const char* key)$/;"	f
+AlarmDataInsert	OAMS_db.cpp	/^int AlarmDataInsert(ALM_Q_MSG msg)$/;"	f
+AlarmDataSelect	OAMS_db.cpp	/^int AlarmDataSelect()$/;"	f
+AlarmDesc	OAMS_data.h	/^    char AlarmDesc[128];$/;"	m	struct:__anon29
+AlarmInfo	OAMS_alarm.h	/^struct AlarmInfo {$/;"	s
+AlarmLevel	OAMS_data.h	/^    int AlarmLevel;$/;"	m	struct:__anon29
+AlarmLogInsert	OAMS_db.cpp	/^int AlarmLogInsert(ALM_Q_MSG* msg)$/;"	f
+AlarmManager	OAMS_alarm.cpp	/^AlarmManager::AlarmManager()$/;"	f	class:AlarmManager
+AlarmManager	OAMS_alarm.h	/^class AlarmManager {$/;"	c
+AlarmMessage	OAMS_exporter.h	/^} AlarmMessage;$/;"	t	typeref:struct:__anon9
+AlarmOccured	OAMS_alarm.cpp	/^int AlarmManager::AlarmOccured(AlarmInfo alarmMsg)$/;"	f	class:AlarmManager
+AlarmRepair	OAMS_data.h	/^    char AlarmRepair[128];$/;"	m	struct:__anon29
+AlarmType	OAMS_data.h	/^    int AlarmType;$/;"	m	struct:__anon29
+AllProcessStartStop	OAMS_xbus.cpp	/^int AllProcessStartStop(const char* server_name, int msgId, int asId, int sendAsId, int haSide, char *out_comment)$/;"	f
+AltiCinf	OAMS_altiCInf.cpp	/^AltiCinf::AltiCinf()  $/;"	f	class:AltiCinf
+AltiCinf	OAMS_altiCInf.h	/^class AltiCinf$/;"	c
+AsCpsStatProcess	OAMS_stat.cpp	/^void StatisticManager::AsCpsStatProcess()$/;"	f	class:StatisticManager
+AsInfoManager	OAMS_data.h	/^class AsInfoManager {$/;"	c
+AsSESBlock	OAMS_xbus.cpp	/^int AsSESBlock(int msgId, CLIENT_INFO *rcv)$/;"	f
+AsStatsInfoManager	OAMS_data.h	/^class AsStatsInfoManager {$/;"	c
+BD_ITEM	OAMS_define.h	/^} BD_ITEM;$/;"	t	typeref:struct:__anon41
+BD_ITEM_V3	OAMS_define.h	/^} BD_ITEM_V3;$/;"	t	typeref:struct:__anon44
+BD_USE	OAMS_define.h	/^} BD_USE;$/;"	t	typeref:struct:__anon42
+BD_USE_V2	OAMS_define.h	/^} BD_USE_V2;$/;"	t	typeref:struct:__anon43
+BD_USE_V3	OAMS_define.h	/^} BD_USE_V3;$/;"	t	typeref:struct:__anon45
+BYTE	OAMS_define.h	/^typedef unsigned char   BYTE;$/;"	t
+BindParam	OAMS_altiCInf.h	/^    BindParam(int idx, const char* value) : index(idx), type(BindType::STRING) {$/;"	f	class:BindParam
+BindParam	OAMS_altiCInf.h	/^    BindParam(int idx, int value) : index(idx), type(BindType::INT), intValue(value) {}$/;"	f	class:BindParam
+BindParam	OAMS_altiCInf.h	/^class BindParam {$/;"	c
+BindType	OAMS_altiCInf.h	/^enum class BindType { INT, STRING, MAXBIND };$/;"	c
+BlockRQ_S	OAMS_define.h	/^} BlockRQ_S;$/;"	t	typeref:struct:__anon57
+BusyCh	OAMS_define.h	/^    LONG    BusyCh;$/;"	m	struct:__anon41
+BusyCh	OAMS_define.h	/^    LONG    BusyCh;$/;"	m	struct:__anon44
+BusyCh	OAMS_define.h	/^    unsigned long BusyCh;$/;"	m	struct:__anon37
+CC	Makefile	/^CC = g++$/;"	m
+CCIM_MSG_ID	OAMS_define.h	174;"	d
+CConfig	OAMS_config.cpp	/^CConfig::CConfig()$/;"	f	class:CConfig
+CConfig	OAMS_config.h	/^class CConfig$/;"	c
+CDB_MAP	OAMS_extern.h	8;"	d
+CDB_STATUS_INFO	OAMS_data.h	/^} CDB_STATUS_INFO;$/;"	t	typeref:struct:__anon27
+CEXPORTERLIB_H	OAMS_exporter.h	2;"	d
+CExporter	OAMS_exporter.cpp	/^CExporter::CExporter() {}$/;"	f	class:CExporter
+CExporter	OAMS_exporter.h	/^class CExporter {$/;"	c
+CFG_AS_IP_A	OAMS_define.h	76;"	d
+CFG_AS_IP_B	OAMS_define.h	77;"	d
+CFG_MCCS_USE	OAMS_define.h	80;"	d
+CFG_MGM_PORT	OAMS_define.h	78;"	d
+CFG_R_BUF	OAMS_define.h	79;"	d
+CHASSIS_INFO	OAMS_data.h	/^} CHASSIS_INFO;$/;"	t	typeref:struct:__anon16
+CHECKFAIL_TIMEOUT	OAMS_define.h	71;"	d
+CHWMonitor	OAMS_hwmon.cpp	/^CHWMonitor::CHWMonitor()$/;"	f	class:CHWMonitor
+CHWMonitor	OAMS_hwmon.h	/^class CHWMonitor$/;"	c
+CLIENT_HEAD	OAMS_define.h	/^} CLIENT_HEAD;$/;"	t	typeref:struct:__anon60
+CLIENT_INFO	OAMS_define.h	/^} CLIENT_INFO;$/;"	t	typeref:struct:__anon61
+CMD_ALARM_CONFIG	OAMS_define.h	/^        CMD_ALARM_CONFIG,$/;"	e	enum:__anon30
+CMD_ALARM_CONFIG2	OAMS_define.h	/^        CMD_ALARM_CONFIG2=0x30,$/;"	e	enum:__anon30
+CMD_ALARM_LIMIT	OAMS_define.h	/^        CMD_ALARM_LIMIT,$/;"	e	enum:__anon30
+CMD_ALARM_METHOD	OAMS_define.h	/^        CMD_ALARM_METHOD,$/;"	e	enum:__anon30
+CMD_ALARM_NOTICE	OAMS_define.h	/^        CMD_ALARM_NOTICE,$/;"	e	enum:__anon30
+CMD_AS_SERVICE	OAMS_define.h	/^        CMD_AS_SERVICE,$/;"	e	enum:__anon30
+CMD_BLADE_CONFIG	OAMS_define.h	/^        CMD_BLADE_CONFIG,$/;"	e	enum:__anon30
+CMD_CHASSIS_CONFIG	OAMS_define.h	/^enum {  CMD_CHASSIS_CONFIG,$/;"	e	enum:__anon30
+CMD_CHECKTIME_CONFIG	OAMS_define.h	/^        CMD_CHECKTIME_CONFIG=0x11,$/;"	e	enum:__anon30
+CMD_CLIENT_MSG_INFO	OAMS_define.h	/^        CMD_CLIENT_MSG_INFO = 0x2000,$/;"	e	enum:__anon30
+CMD_CLIENT_PROCESS_START	OAMS_define.h	/^        CMD_CLIENT_PROCESS_START,$/;"	e	enum:__anon30
+CMD_CLIENT_PROCESS_STOP	OAMS_define.h	/^        CMD_CLIENT_PROCESS_STOP,$/;"	e	enum:__anon30
+CMD_CLIENT_SERVER_START	OAMS_define.h	/^        CMD_CLIENT_SERVER_START,$/;"	e	enum:__anon30
+CMD_CLIENT_SERVER_STOP	OAMS_define.h	/^        CMD_CLIENT_SERVER_STOP,$/;"	e	enum:__anon30
+CMD_CLIENT_SES_BLOCK	OAMS_define.h	/^        CMD_CLIENT_SES_BLOCK,$/;"	e	enum:__anon30
+CMD_CLIENT_SES_UNBLOCK	OAMS_define.h	/^        CMD_CLIENT_SES_UNBLOCK,$/;"	e	enum:__anon30
+CMD_CLIENT_SYSTEM_CHANGEHA	OAMS_define.h	/^        CMD_CLIENT_SYSTEM_CHANGEHA,$/;"	e	enum:__anon30
+CMD_CLIENT_SYSTEM_REBOOT	OAMS_define.h	/^        CMD_CLIENT_SYSTEM_REBOOT,$/;"	e	enum:__anon30
+CMD_CLIENT_SYSTEM_SHUTDOWN	OAMS_define.h	/^        CMD_CLIENT_SYSTEM_SHUTDOWN,$/;"	e	enum:__anon30
+CMD_EXTERNAL_SYSTEM_CONFIG	OAMS_define.h	/^        CMD_EXTERNAL_SYSTEM_CONFIG,$/;"	e	enum:__anon30
+CMD_NMS_SEND_FLAG_UPDATE	OAMS_define.h	/^        CMD_NMS_SEND_FLAG_UPDATE=0x31,$/;"	e	enum:__anon30
+CMD_NOMS_GET_CPU_INFO	OAMS_define.h	/^        CMD_NOMS_GET_DISK_INFO, CMD_NOMS_GET_CPU_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_DISK_INFO	OAMS_define.h	/^        CMD_NOMS_GET_DISK_INFO, CMD_NOMS_GET_CPU_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_MEMORY_INFO	OAMS_define.h	/^        CMD_NOMS_GET_MEMORY_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_NIC_INFO	OAMS_define.h	/^        CMD_NOMS_GET_NIC_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_PROCESS_INFO	OAMS_define.h	/^        CMD_NOMS_GET_PROCESS_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_RESOURCE_INFO	OAMS_define.h	/^        CMD_NOMS_GET_RESOURCE_INFO,$/;"	e	enum:__anon30
+CMD_NOMS_GET_SERVER_INFO	OAMS_define.h	/^        CMD_NOMS_GET_SERVER_INFO = 0x1000,$/;"	e	enum:__anon30
+CMD_OAMS_SMS_SEND	OAMS_define.h	/^        CMD_OAMS_SMS_SEND=0x20,$/;"	e	enum:__anon30
+CMD_OAMS_SMS_SEND2	OAMS_define.h	/^        CMD_OAMS_SMS_SEND2=0x21,$/;"	e	enum:__anon30
+CMD_OVERLOAD_CONFIG	OAMS_define.h	/^        CMD_OVERLOAD_CONFIG,$/;"	e	enum:__anon30
+CMD_REGI_CPS_OVERLOAD	OAMS_define.h	/^        CMD_REGI_CPS_OVERLOAD=0x12,$/;"	e	enum:__anon30
+CMD_SERVER_TO_AS	OAMS_define.h	/^        CMD_SERVER_TO_AS,$/;"	e	enum:__anon30
+CMD_SWITCH_CONFIG	OAMS_define.h	/^        CMD_SWITCH_CONFIG,$/;"	e	enum:__anon30
+CNM_ASBlockSPY	OAMS_define.h	84;"	d
+CNM_BlockSCM	OAMS_define.h	85;"	d
+CNM_TraceListSPY	OAMS_define.h	90;"	d
+CNM_TraceOffSPY	OAMS_define.h	89;"	d
+CNM_TraceOnSPY	OAMS_define.h	88;"	d
+CNM_UnblockSCM	OAMS_define.h	86;"	d
+COMMON_BIN_PATH	Makefile	/^COMMON_BIN_PATH=$(COMMON_PATH)\/bin$/;"	m
+COMMON_CFG_PATH	Makefile	/^COMMON_CFG_PATH=$(COMMON_PATH)\/cfg\/EMS0$/;"	m
+COMMON_INC_PATH	Makefile	/^COMMON_INC_PATH=-I$(COMMON_PATH)\/include$/;"	m
+COMMON_LIB_PATH	Makefile	/^COMMON_LIB_PATH=-L$(COMMON_PATH)\/lib$/;"	m
+COMMON_PATH	Makefile	/^COMMON_PATH=\/home\/mcpas$/;"	m
+CONNSTR	OAMS_altiCInf.h	26;"	d
+CONNSTR	OAMS_define.h	39;"	d
+CQueueBase	CQueueBase.h	/^    CQueueBase() { pthread_mutex_init(&m_pMutex, NULL); }$/;"	f	class:CQueueBase
+CQueueBase	CQueueBase.h	/^class CQueueBase {$/;"	c
+CSCF_MAP	OAMS_extern.h	6;"	d
+CdbDataSelect	OAMS_db.cpp	/^bool CdbDataSelect()$/;"	f
+CdbFunc	OAMS_extern.cpp	/^void ExternServerManager::CdbFunc()$/;"	f	class:ExternServerManager
+CdbStatusInfoManager	OAMS_data.h	/^class CdbStatusInfoManager {$/;"	c
+CdbThread	OAMS_extern.cpp	/^void* ExternServerManager::CdbThread(void* arg) {$/;"	f	class:ExternServerManager
+ChangeHaRQ_S	OAMS_define.h	/^} ChangeHaRQ_S;$/;"	t	typeref:struct:__anon56
+ChassisInfoManager	OAMS_data.h	/^class ChassisInfoManager {$/;"	c
+CheckDeleteLabels	OAMS_exporter.cpp	/^void CExporter::CheckDeleteLabels(const char* ip, const char* port) {$/;"	f	class:CExporter
+CheckDeleteLabelsWrapper	OAMS_exporter.cpp	/^void* CheckDeleteLabelsWrapper(void* arg) {$/;"	f
+CheckProcRunning	OAMS_monitor.cpp	/^BYTE CheckProcRunning(const char* command, const char* moduleName)$/;"	f
+ClimitProcess	OAMS_limit.cpp	/^ClimitProcess::ClimitProcess() {}$/;"	f	class:ClimitProcess
+ClimitProcess	OAMS_limit.h	/^class ClimitProcess {$/;"	c
+CommentProcess	OAMS_alarm.cpp	/^int AlarmManager::CommentProcess(char* asName, char* svrName, char* origComment, int Count, char variable[][40], char* CommentResult)$/;"	f	class:AlarmManager
+ConnSvrID	OAMS_data.h	/^	int ConnSvrID;$/;"	m	struct:__anon26
+ConnectAS_MGM	OAMS_mgm.cpp	/^void* ConnectAS_MGM(void* arg) $/;"	f
+ConverAlarmCode	OAMS_common.cpp	/^int ConverAlarmCode(int code) {$/;"	f
+CpsStatInsert	OAMS_db.cpp	/^int CpsStatInsert(int asId, char* DBTime, AS_STATS asStat)$/;"	f
+CpsSummery	OAMS_data.h	/^    STAT_SUMMERY CpsSummery;$/;"	m	struct:__anon21
+CscfDataSelect	OAMS_db.cpp	/^bool CscfDataSelect()$/;"	f
+CscfDataUpdate	OAMS_db.cpp	/^int CscfDataUpdate(int nASID, int nCSCFID, int runFlag, const char* logTime)$/;"	f
+CscfFunc	OAMS_extern.cpp	/^void ExternServerManager::CscfFunc()$/;"	f	class:ExternServerManager
+CscfGetIdToIndex	OAMS_extern.cpp	/^int ExternServerManager::CscfGetIdToIndex(int sswId)$/;"	f	class:ExternServerManager
+CscfIdToIndex	OAMS_extern.h	/^	std::unordered_map<int, int> CscfIdToIndex;$/;"	m	class:ExternServerManager
+CscfSetIdToIndex	OAMS_extern.cpp	/^bool  ExternServerManager::CscfSetIdToIndex(int sswId, int Index)$/;"	f	class:ExternServerManager
+CscfThread	OAMS_extern.cpp	/^void* ExternServerManager::CscfThread(void* arg) {$/;"	f	class:ExternServerManager
+DBINC	Makefile	/^DBINC=-I$(ALTIBASE_HOME)\/include$/;"	m
+DBLIB	Makefile	/^DBLIB=-L$(ALTIBASE_HOME)\/lib -lalticapi -lodbccli $/;"	m
+DEFINES	Makefile	/^DEFINES=-DONESERVER_MODE -DOFCS_IN_EMS -DALTIBASE_MODE$/;"	m
+DIRECT	OAMS_altiCInf.h	/^enum class QueryType { DIRECT, BIND };$/;"	m	class:QueryType
+DIS_CONFIG_OAMS	OAMS_define.h	/^} DIS_CONFIG_OAMS;$/;"	t	typeref:struct:dis_config_oams
+DIS_STAT_OAMS	OAMS_define.h	/^} DIS_STAT_OAMS;$/;"	t	typeref:struct:dis_stat_oams
+DataRemoveServerIdMap	OAMS_db.cpp	/^bool DataRemoveServerIdMap()$/;"	f
+DataSetAsInfo	OAMS_db.cpp	/^bool DataSetAsInfo()$/;"	f
+DataSetChassisInfo	OAMS_db.cpp	/^bool DataSetChassisInfo()$/;"	f
+DataSetDBSession	OAMS_db.cpp	/^bool DataSetDBSession(int svrId)$/;"	f
+DataSetModuleInfo	OAMS_db.cpp	/^bool DataSetModuleInfo()$/;"	f
+DataSetNTP	OAMS_db.cpp	/^bool DataSetNTP()$/;"	f
+DataSetServerIdMap	OAMS_db.cpp	/^bool DataSetServerIdMap()$/;"	f
+DataSetServerInfo	OAMS_db.cpp	/^bool DataSetServerInfo()$/;"	f
+DataSetServiceKey	OAMS_db.cpp	/^bool DataSetServiceKey()$/;"	f
+DataSetTableSpace	OAMS_db.cpp	/^bool DataSetTableSpace(int svrId)$/;"	f
+DataSetThreshold	OAMS_db.cpp	/^bool DataSetThreshold()$/;"	f
+DebugLevel	OAMS_define.h	/^    BYTE    DebugLevel;$/;"	m	struct:dis_config_oams
+DebugLevel	OAMS_define.h	/^    BYTE    DebugLevel;$/;"	m	struct:set_config_oams
+DelLabel	OAMS_exporter.cpp	/^void CExporter::DelLabel(const std::string& labelStr) {$/;"	f	class:CExporter
+DelLabelOnly	OAMS_exporter.cpp	/^void CExporter::DelLabelOnly(const std::string& labelStr) {$/;"	f	class:CExporter
+DeleteAll	CQueueBase.h	/^    bool DeleteAll()$/;"	f	class:CQueueBase
+DirectQuery	OAMS_altiCInf.cpp	/^bool AltiCinf::DirectQuery(const char* sql)$/;"	f	class:AltiCinf
+DoTask_5M	OAMS_stat.cpp	/^int StatisticManager::DoTask_5M()$/;"	f	class:StatisticManager
+EMSGWS_ID	OAMS_define.h	45;"	d
+EXPORTER_ALARM_ERR	OAMS_define.h	158;"	d
+EXPORTER_ALARM_FAULT	OAMS_define.h	159;"	d
+EXPORTER_ALARM_RELAY	OAMS_define.h	160;"	d
+EXTERNAL_COUNT_INFO	OAMS_data.h	/^} EXTERNAL_COUNT_INFO;$/;"	t	typeref:struct:__anon28
+EXTERNAL_IF_INFO	OAMS_data.h	/^} EXTERNAL_IF_INFO;$/;"	t	typeref:struct:__anon26
+EXTERN_MAP	OAMS_extern.h	9;"	d
+EXT_CDB_TYPE	OAMS_define.h	110;"	d
+EXT_CSCF_TYPE	OAMS_define.h	107;"	d
+EXT_MRF_TYPE	OAMS_define.h	109;"	d
+EXT_MRF_TYPE	OAMS_extern.h	12;"	d
+EXT_OFCS_TYPE	OAMS_define.h	108;"	d
+ExtDataSelect	OAMS_db.cpp	/^bool ExtDataSelect()$/;"	f
+ExternCnt	OAMS_extern.h	/^} ExternCnt;$/;"	t	typeref:struct:__anon1
+ExternFunc	OAMS_extern.cpp	/^void ExternServerManager::ExternFunc()$/;"	f	class:ExternServerManager
+ExternMapClear	OAMS_extern.cpp	/^bool ExternServerManager::ExternMapClear(int type)$/;"	f	class:ExternServerManager
+ExternServerManager	OAMS_extern.cpp	/^ExternServerManager::ExternServerManager()$/;"	f	class:ExternServerManager
+ExternServerManager	OAMS_extern.h	/^class ExternServerManager {$/;"	c
+ExternThread	OAMS_extern.cpp	/^void* ExternServerManager::ExternThread(void* arg) {$/;"	f	class:ExternServerManager
+ExternalIfInfoManager	OAMS_data.h	/^class ExternalIfInfoManager {$/;"	c
+FALSE	OAMS_define.h	36;"	d
+FaultDataToDB	OAMS_db.cpp	/^int FaultDataToDB(int asId, int serverId, int indexId, int alarmId, char* alarmedTime, int phase, char* detail)$/;"	f
+FaultOccured	OAMS_alarm.cpp	/^int AlarmManager::FaultOccured(int asId, int svrId, const char* faultMsg)$/;"	f	class:AlarmManager
+FillCommonLabels	OAMS_exporter.cpp	/^void FillCommonLabels(LabelList& labels, std::initializer_list<std::pair<const char*, std::string>> keyValues) {$/;"	f
+FindAsIdByName	OAMS_data.cpp	/^int AsInfoManager::FindAsIdByName(const char* asName) {$/;"	f	class:AsInfoManager
+FindIndexInArray	OAMS_xbus.cpp	/^int FindIndexInArray(const char* name, const char arr[][8], size_t count) {$/;"	f
+FindModuleIdByName	OAMS_data.cpp	/^int ModuleInfoManager::FindModuleIdByName(const char* moduleName) {$/;"	f	class:ModuleInfoManager
+FindModuleNameByModuleId	OAMS_data.cpp	/^std::string ModuleInfoManager::FindModuleNameByModuleId(int moduleId){$/;"	f	class:ModuleInfoManager
+FindServerHaByName	OAMS_data.cpp	/^int ServerInfoManager::FindServerHaByName(const char* serverName) {$/;"	f	class:ServerInfoManager
+FindServerIdByName	OAMS_data.cpp	/^int ServerInfoManager::FindServerIdByName(const char* serverName) {$/;"	f	class:ServerInfoManager
+FindServerNameByHa	OAMS_data.cpp	/^std::string ServerInfoManager::FindServerNameByHa(const char* serverName, int ha)$/;"	f	class:ServerInfoManager
+FindSvrIdByModuleId	OAMS_data.cpp	/^int ModuleInfoManager::FindSvrIdByModuleId(int moduleId) {$/;"	f	class:ModuleInfoManager
+Flag	OAMS_define.h	/^    BYTE    Flag;$/;"	m	struct:__anon41
+Flag	OAMS_define.h	/^    BYTE    Flag;$/;"	m	struct:__anon44
+Flag	OAMS_define.h	/^    char    Flag;$/;"	m	struct:__anon37
+GO_LIB	Makefile	/^GO_LIB=\/home\/mcpas\/lib\/exporter_lib\/libprom_metrics.so$/;"	m
+GenerateASLabels	OAMS_exporter.cpp	/^void GenerateASLabels(LabelList& labelList) {$/;"	f
+GetAlarmInfo	OAMS_exporter.cpp	/^void CExporter::GetAlarmInfo(const char* ip, const char* port, const AlarmMessage& alarmMessage) {$/;"	f	class:CExporter
+GetAsStatInfo	OAMS_exporter.cpp	/^void CExporter::GetAsStatInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetChannelUsage	OAMS_exporter.cpp	/^void CExporter::GetChannelUsage(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetConfiAsListInfo	OAMS_exporter.cpp	/^void CExporter::GetConfiAsListInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetConfigAsInfo	OAMS_exporter.cpp	/^void CExporter::GetConfigAsInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetConfigString	OAMS_config.cpp	/^int CConfig::GetConfigString(const char *pszkey, char *pszValue)$/;"	f	class:CConfig
+GetConfigThresholdInfo	OAMS_exporter.cpp	/^void CExporter::GetConfigThresholdInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetConfigValuesBySection	OAMS_config.cpp	/^int CConfig::GetConfigValuesBySection(const char* pszSection, std::vector<std::pair<std::string, std::string>>& vecKeyValues)$/;"	f	class:CConfig
+GetEMS_ID	OAMS_config.cpp	/^int CConfig::GetEMS_ID(void)$/;"	f	class:CConfig
+GetExternServerInfo	OAMS_exporter.cpp	/^void CExporter::GetExternServerInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetExternServerListInfo	OAMS_exporter.cpp	/^void CExporter::GetExternServerListInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetFdMccsProc	OAMS_monitor.cpp	/^BYTE GetFdMccsProc(FILE *fp, const char*  moduleName) $/;"	f
+GetHaServerInfo	OAMS_exporter.cpp	/^void CExporter::GetHaServerInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetHadwareInfo	OAMS_exporter.cpp	/^void CExporter::GetHadwareInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetMY_SIDE	OAMS_config.h	/^    int GetMY_SIDE(void) { return m_nEMSID; }$/;"	f	class:CConfig
+GetMccsProc	OAMS_monitor.cpp	/^BYTE GetMccsProc(const char* moduleName)$/;"	f
+GetMgmInfo	OAMS_config.h	/^	int	GetMgmInfo(int nIndex, char *pszIP1, char *pszIP2)$/;"	f	class:CConfig
+GetOverloadInfo	OAMS_exporter.cpp	/^void CExporter::GetOverloadInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetServerCommandCode	OAMS_xbus.cpp	/^int GetServerCommandCode(const char* serverName, int msgId)$/;"	f
+GetServerIdFromXbus	OAMS_common.cpp	/^int GetServerIdFromXbus(int asId, int xbusId, int& outServerId) {$/;"	f
+GetServiceGraphInfo	OAMS_exporter.cpp	/^void CExporter::GetServiceGraphInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetStateModuleInfo	OAMS_exporter.cpp	/^void CExporter::GetStateModuleInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+GetStateServerInfo	OAMS_exporter.cpp	/^void CExporter::GetStateServerInfo(const char* ip, const char* port) {$/;"	f	class:CExporter
+HARQ_S	OAMS_define.h	/^} HARQ_S;$/;"	t	typeref:struct:__anon32
+HA_USE	OAMS_define.h	/^} HA_USE;  $/;"	t	typeref:struct:__anon40
+HOME_PATH	Makefile	/^HOME_PATH=.$/;"	m
+HW	OAMS_data.h	/^} HW;$/;"	t	typeref:struct:__anon12
+HW_USE	OAMS_define.h	/^} HW_USE;$/;"	t	typeref:struct:__anon39
+HaPsRP	OAMS_define.h	/^} HaPsRP;$/;"	t	typeref:struct:__anon36
+HaStatusInfo	OAMS_data.h	/^} HaStatusInfo;$/;"	t	typeref:struct:__anon14
+Head	OAMS_define.h	/^    MMCHD       Head;$/;"	m	struct:__anon38
+Head	OAMS_define.h	/^    MMCHD   Head;$/;"	m	struct:__anon40
+Head	OAMS_define.h	/^    MMCHD   Head;$/;"	m	struct:__anon42
+Head	OAMS_define.h	/^    MMCHD   Head;$/;"	m	struct:__anon43
+Head	OAMS_define.h	/^    MMCHD   Head;$/;"	m	struct:__anon45
+Head	OAMS_define.h	/^   MMCHD Head;$/;"	m	struct:__anon54
+INT	OAMS_altiCInf.h	/^enum class BindType { INT, STRING, MAXBIND };$/;"	m	class:BindType
+IPADDR_LEN	OAMS_define.h	74;"	d
+IP_LEN	OAMS_define.h	99;"	d
+Init	OAMS_alarm.cpp	/^bool AlarmManager::Init()$/;"	f	class:AlarmManager
+Init	OAMS_data.cpp	/^void AlarmConfigManager::Init() {$/;"	f	class:AlarmConfigManager
+Init	OAMS_data.cpp	/^void AsInfoManager::Init() {$/;"	f	class:AsInfoManager
+Init	OAMS_data.cpp	/^void AsStatsInfoManager::Init() {$/;"	f	class:AsStatsInfoManager
+Init	OAMS_data.cpp	/^void CdbStatusInfoManager::Init() {$/;"	f	class:CdbStatusInfoManager
+Init	OAMS_data.cpp	/^void ChassisInfoManager::Init() {$/;"	f	class:ChassisInfoManager
+Init	OAMS_data.cpp	/^void ExternalIfInfoManager::Init() {$/;"	f	class:ExternalIfInfoManager
+Init	OAMS_data.cpp	/^void ModuleInfoManager::Init() {$/;"	f	class:ModuleInfoManager
+Init	OAMS_data.cpp	/^void MsConfigInfoManager::Init() {$/;"	f	class:MsConfigInfoManager
+Init	OAMS_data.cpp	/^void PerformanceManager::Init() {$/;"	f	class:PerformanceManager
+Init	OAMS_data.cpp	/^void ServerInfoManager::Init() {$/;"	f	class:ServerInfoManager
+Init	OAMS_data.cpp	/^void SswConfigInfoManager::Init() {$/;"	f	class:SswConfigInfoManager
+Init	OAMS_data.cpp	/^void SystemResourceStatManager::Init() {$/;"	f	class:SystemResourceStatManager
+Init	OAMS_data.cpp	/^void ThresholdInfoManager::Init() {$/;"	f	class:ThresholdInfoManager
+Init	OAMS_extern.cpp	/^bool ExternServerManager::Init()$/;"	f	class:ExternServerManager
+InitCDBConfig	OAMS_extern.cpp	/^int ExternServerManager::InitCDBConfig(void)$/;"	f	class:ExternServerManager
+InitCSCFConfig	OAMS_extern.cpp	/^int ExternServerManager::InitCSCFConfig(void)$/;"	f	class:ExternServerManager
+InitCpsStat	OAMS_data.cpp	/^void AsStatsInfoManager::InitCpsStat() {$/;"	f	class:AsStatsInfoManager
+InitExternConfig	OAMS_extern.cpp	/^int ExternServerManager::InitExternConfig()$/;"	f	class:ExternServerManager
+InitMRFConfig	OAMS_extern.cpp	/^int ExternServerManager::InitMRFConfig(void)$/;"	f	class:ExternServerManager
+Init_HWMonitor	OAMS_hwmon.cpp	/^int CHWMonitor::Init_HWMonitor(void)$/;"	f	class:CHWMonitor
+InsertOperatorLog	OAMS_db.cpp	/^int InsertOperatorLog(ORA_Operator_Log *oplog)$/;"	f
+IsEmpty	CQueueBase.h	/^    bool IsEmpty()$/;"	f	class:CQueueBase
+KEY_MAXSIZE	OAMS_alarm.h	5;"	d
+KillPsRP	OAMS_define.h	/^} KillPsRP;  $/;"	t	typeref:struct:__anon35
+LFLAGS	Makefile	/^LFLAGS=-lpthread -ldl -lrt -std=c++11 -lsmqueue64 -lbtxbus3e-64 -lm -lcrypto -lnet64 -lsmcom64 -lShmOAMSv5$/;"	m
+LOG_ERR	LIB_nsmlog.h	27;"	d
+LOG_INF	LIB_nsmlog.h	26;"	d
+LOG_LEVEL_STR	LIB_nsmlog.cpp	/^const char LOG_LEVEL_STR[6][6] = { "", "LV1  ", "LV2  ", "LV3  ", "ERROR", "INFO " };$/;"	v
+LOG_LV1	LIB_nsmlog.h	31;"	d
+LOG_LV2	LIB_nsmlog.h	30;"	d
+LOG_LV3	LIB_nsmlog.h	29;"	d
+LOG_OFF	LIB_nsmlog.h	28;"	d
+Label	OAMS_exporter.h	/^} Label;$/;"	t	typeref:struct:__anon7
+LabelList	OAMS_exporter.h	/^} LabelList;$/;"	t	typeref:struct:__anon8
+LabelListToString	OAMS_exporter.cpp	/^std::string LabelListToString(const LabelList* labelList) {$/;"	f
+LimitAlarmLevel	OAMS_limit.h	/^enum class LimitAlarmLevel {$/;"	c
+LimitCheckFunc	OAMS_limit.cpp	/^LimitAlarmLevel ClimitProcess::LimitCheckFunc(int use, int limitLevel[])$/;"	f	class:ClimitProcess
+LimitCheckThread	OAMS_limit.cpp	/^void* ClimitProcess::LimitCheckThread(void* arg)$/;"	f	class:ClimitProcess
+Lock	CQueueBase.h	/^    void Lock() { pthread_mutex_lock(&m_pMutex); }$/;"	f	class:CQueueBase
+Log	OAMS_common.cpp	/^NSM_LOG    Log;$/;"	v
+LogFile	OAMS_define.h	/^    BYTE    LogFile;$/;"	m	struct:dis_config_oams
+LogFile	OAMS_define.h	/^    BYTE    LogFile;$/;"	m	struct:set_config_oams
+LoopBackRQ_S	OAMS_define.h	/^} LoopBackRQ_S;$/;"	t	typeref:struct:__anon31
+MAJOR	OAMS_limit.h	/^    MAJOR,$/;"	m	class:LimitAlarmLevel
+MAX_ALARM	OAMS_define.h	62;"	d
+MAX_AS	OAMS_define.h	43;"	d
+MAX_AS_EMS	OAMS_define.h	44;"	d
+MAX_BOARD	OAMS_define.h	48;"	d
+MAX_CDB	OAMS_define.h	105;"	d
+MAX_CHASSIS	OAMS_define.h	47;"	d
+MAX_EXTERNAL	OAMS_define.h	104;"	d
+MAX_HW	OAMS_define.h	59;"	d
+MAX_LABEL_COUNT	OAMS_exporter.h	7;"	d
+MAX_LABEL_KEY_LEN	OAMS_exporter.h	8;"	d
+MAX_LABEL_VALUE_LEN	OAMS_exporter.h	9;"	d
+MAX_LAN_PORT	OAMS_define.h	61;"	d
+MAX_LOG_NAME_LEN	LIB_nsmlog.h	59;"	d
+MAX_MGM_DATA_LEN	OAMS_define.h	63;"	d
+MAX_MODULE	OAMS_define.h	49;"	d
+MAX_MS	OAMS_define.h	103;"	d
+MAX_OAMS_CLIENTS	OAMS_define.h	50;"	d
+MAX_SERVER	OAMS_define.h	46;"	d
+MAX_SSW	OAMS_define.h	102;"	d
+MAX_SVC_USE	OAMS_define.h	57;"	d
+MAX_SYS_INT	OAMS_define.h	53;"	d
+MAX_TS	OAMS_define.h	60;"	d
+MGM_A	OAMS_define.h	64;"	d
+MGM_B	OAMS_define.h	65;"	d
+MGM_INFO	OAMS_config.h	/^} MGM_INFO;$/;"	t	typeref:struct:__anon5
+MGM_MSG	OAMS_mgm.h	/^} MGM_MSG;$/;"	t	typeref:struct:__anon4
+MINOR	OAMS_limit.h	/^    MINOR,$/;"	m	class:LimitAlarmLevel
+MMCM_A	OAMS_define.h	66;"	d
+MMCM_B	OAMS_define.h	67;"	d
+MMCM_MSG_ID	OAMS_define.h	162;"	d
+MODULE_INFO	OAMS_data.h	/^} MODULE_INFO;$/;"	t	typeref:struct:__anon17
+MODULE_NAME_LEN	OAMS_define.h	97;"	d
+MOVER	OAMS_define.h	/^} MOVER;$/;"	t	typeref:struct:__anon53
+MO_VER	OAMS_define.h	/^} MO_VER;$/;"	t	typeref:struct:__anon54
+MRF_MAP	OAMS_extern.h	7;"	d
+MSG_ALARM_SWITCH	OAMS_define.h	166;"	d
+MSG_DIS_CONFIG	OAMS_define.h	164;"	d
+MSG_DIS_STAT	OAMS_define.h	163;"	d
+MSG_GET_ASVER	OAMS_define.h	170;"	d
+MSG_READ_CSCFCFG	OAMS_define.h	168;"	d
+MSG_READ_SERVICE	OAMS_define.h	169;"	d
+MSG_READ_SMSCFG	OAMS_define.h	167;"	d
+MSG_SET_CONFIG	OAMS_define.h	165;"	d
+MS_CONFIG_INFO	OAMS_data.h	/^} MS_CONFIG_INFO;$/;"	t	typeref:struct:__anon25
+MY_PS_NAME	OAMS_define.h	41;"	d
+MY_SIDE	OAMS_common.cpp	/^uint8_t  MY_SIDE;$/;"	v
+MakeLabel	OAMS_exporter.cpp	/^inline std::pair<const char*, std::string> MakeLabel(const char* key, char* value) {$/;"	f
+MakeLabel	OAMS_exporter.cpp	/^inline std::pair<const char*, std::string> MakeLabel(const char* key, const char* value) {$/;"	f
+MakeLabel	OAMS_exporter.cpp	/^std::pair<const char*, std::string> MakeLabel(const char* key, T value) {$/;"	f
+MbusQ	OAMS_xbus.cpp	/^LibQ        MbusQ;      $/;"	v
+MccsProcess	OAMS_config.h	/^    vector<string> MccsProcess;$/;"	m	class:CConfig
+ModuleInfoManager	OAMS_data.h	/^class ModuleInfoManager {$/;"	c
+MonitorMccs	OAMS_monitor.cpp	/^void *MonitorMccs(void *arg)$/;"	f
+MrfDataSelect	OAMS_db.cpp	/^bool MrfDataSelect()$/;"	f
+MrfFunc	OAMS_extern.cpp	/^void ExternServerManager::MrfFunc()$/;"	f	class:ExternServerManager
+MrfGetIdToIndex	OAMS_extern.cpp	/^int ExternServerManager::MrfGetIdToIndex(string msName)$/;"	f	class:ExternServerManager
+MrfIdToIndex	OAMS_extern.h	/^	std::unordered_map<std::string, int> MrfIdToIndex;$/;"	m	class:ExternServerManager
+MrfSetIdToIndex	OAMS_extern.cpp	/^bool  ExternServerManager::MrfSetIdToIndex(string msName, int Index)$/;"	f	class:ExternServerManager
+MrfThread	OAMS_extern.cpp	/^void* ExternServerManager::MrfThread(void* arg) {$/;"	f	class:ExternServerManager
+MsConfigInfoManager	OAMS_data.h	/^class MsConfigInfoManager {$/;"	c
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex; $/;"	m	class:PerformanceManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:AlarmConfigManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:AsInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:AsStatsInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:CdbStatusInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:ChassisInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:ExternalIfInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:ModuleInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:MsConfigInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:ServerInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:SswConfigInfoManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:SystemResourceStatManager
+Mutex	OAMS_data.h	/^    mutable std::mutex Mutex;$/;"	m	class:ThresholdInfoManager
+NET_STATUS	OAMS_data.h	/^} NET_STATUS;$/;"	t	typeref:struct:__anon11
+NONE	OAMS_limit.h	/^    NONE = 0,$/;"	m	class:LimitAlarmLevel
+NORMAL	OAMS_define.h	69;"	d
+NSM_LOG	LIB_nsmlog.cpp	/^NSM_LOG::NSM_LOG(void)$/;"	f	class:NSM_LOG
+NSM_LOG	LIB_nsmlog.h	/^class NSM_LOG$/;"	c
+OAMS_A	OAMS_define.h	51;"	d
+OAMS_ALARM_H	OAMS_alarm.h	2;"	d
+OAMS_B	OAMS_define.h	52;"	d
+OAMS_CFG_FILE	OAMS_config.h	11;"	d
+OAMS_EXTERN_H	OAMS_extern.h	2;"	d
+OAMS_MONITOR_H	OAMS_monitor.h	2;"	d
+OAMS_MSG_ID	OAMS_define.h	172;"	d
+OAMS_STAT_H	OAMS_stat.h	2;"	d
+OAMS_XBUS_H	OAMS_xbus.h	2;"	d
+OAMS_init_data	OAMS_main.cpp	/^bool OAMS_init_data(int argc, char* argv[])$/;"	f
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OMSA_IP	OAMS_config.h	/^	char	OMSA_IP[128];	\/\/ OMS-A IP$/;"	m	struct:__anon5
+OMSB_IP	OAMS_config.h	/^	char	OMSB_IP[128];	\/\/ OMS-B IP$/;"	m	struct:__anon5
+ORA_MOVER	OAMS_define.h	/^} ORA_MOVER;$/;"	t	typeref:struct:__anon52
+ORA_Operator_Log	OAMS_define.h	/^} ORA_Operator_Log;$/;"	t	typeref:struct:__anon59
+OTHER_SIDE	OAMS_common.cpp	/^uint8_t  OTHER_SIDE;$/;"	v
+PACK_ALARM_CONFIG	OAMS_define.h	/^} PACK_ALARM_CONFIG;$/;"	t	typeref:struct:__anon50
+PACK_ALARM_CONFIG2	OAMS_define.h	/^} PACK_ALARM_CONFIG2;$/;"	t	typeref:struct:__anon51
+PACK_RESPONSE	OAMS_define.h	/^} PACK_RESPONSE;$/;"	t	typeref:struct:__anon49
+PACK_WAPM_HEAD	OAMS_define.h	/^} PACK_WAPM_HEAD;$/;"	t	typeref:struct:__anon48
+PARAM_COUNT	OAMS_altiCInf.h	27;"	d
+PERFORMANCE	OAMS_data.h	/^} PERFORMANCE;$/;"	t	typeref:struct:__anon13
+PORT_LEN	OAMS_define.h	100;"	d
+PSINFO	OAMS_define.h	/^} PSINFO;$/;"	t	typeref:struct:__anon33
+ParsingDelimeter	OAMS_common.cpp	/^int ParsingDelimeter(char *bp, char delimeter, char **valp, int size)$/;"	f
+PerformanceManager	OAMS_data.h	/^class PerformanceManager {$/;"	c
+Pop	CQueueBase.h	/^    T Pop()$/;"	f	class:CQueueBase
+PopAndProcessAlarmMessage	OAMS_exporter.cpp	/^void CExporter::PopAndProcessAlarmMessage(const char* ip, const char* port) {$/;"	f	class:CExporter
+PrintConfig	OAMS_config.cpp	/^int CConfig::PrintConfig(void)$/;"	f	class:CConfig
+ProcessStartStop	OAMS_xbus.cpp	/^int ProcessStartStop(int msgId, CLIENT_INFO *rcv)$/;"	f
+Pthread_send_signal	OAMS_xbus.cpp	/^void Pthread_send_signal()$/;"	f
+Push	CQueueBase.h	/^    int Push(T t)$/;"	f	class:CQueueBase
+PushAlarmMessage	OAMS_exporter.cpp	/^void CExporter::PushAlarmMessage(int type, ALM_Q_MSG* msg) {$/;"	f	class:CExporter
+QueryType	OAMS_altiCInf.h	/^enum class QueryType { DIRECT, BIND };$/;"	c
+ROLE_DEF_FILE	OAMS_config.h	10;"	d
+RcvAlmMsgFromMGM	OAMS_mgm.cpp	/^int RcvAlmMsgFromMGM(BYTE asId, int len, ALM_MSG *rcv)$/;"	f
+RcvDataFromMGM	OAMS_mgm.cpp	/^void RcvDataFromMGM(BYTE asId, int len, MMCPDU *msg)$/;"	f
+RcvFltMsgFromMGM	OAMS_mgm.cpp	/^int RcvFltMsgFromMGM(BYTE asId, int len, ALM_MSG *rcv)$/;"	f
+RcvMgmMsgFromMGM	OAMS_mgm.cpp	/^int RcvMgmMsgFromMGM(BYTE asId, int len, MMCPDU *rcv)$/;"	f
+RcvMmcMsgFromMGM	OAMS_mgm.cpp	/^int RcvMmcMsgFromMGM(BYTE asId, WORD len, MMCPDU *rcv)$/;"	f
+RcvStsMsgFromMGM	OAMS_mgm.cpp	/^int RcvStsMsgFromMGM(BYTE asId, int len, MMCPDU *rcv)$/;"	f
+ReadCDBConfigToDB	OAMS_extern.cpp	/^int ExternServerManager::ReadCDBConfigToDB()$/;"	f	class:ExternServerManager
+ReadCSCFConfigToDB	OAMS_extern.cpp	/^int ExternServerManager::ReadCSCFConfigToDB()$/;"	f	class:ExternServerManager
+ReadCfgValue	OAMS_config.cpp	/^int CConfig::ReadCfgValue(char *pszBuf, char *pszKey, char *pszValue)$/;"	f	class:CConfig
+ReadConfig	OAMS_config.cpp	/^int CConfig::ReadConfig(void)$/;"	f	class:CConfig
+ReadExternConfigToDB	OAMS_extern.cpp	/^int ExternServerManager::ReadExternConfigToDB()$/;"	f	class:ExternServerManager
+ReadMRFConfigToDB	OAMS_extern.cpp	/^int ExternServerManager::ReadMRFConfigToDB()$/;"	f	class:ExternServerManager
+RelayOccured	OAMS_alarm.cpp	/^int AlarmManager::RelayOccured(int asId, int svrId, const char* relayMsg)$/;"	f	class:AlarmManager
+RemoveMetric	OAMS_exporter.cpp	/^bool CExporter::RemoveMetric(const char* name, const char* labelStr, const char* ip, const char* port) {$/;"	f	class:CExporter
+RemoveMetricByPartialLabel	OAMS_exporter.cpp	/^void CExporter::RemoveMetricByPartialLabel(const char* name, const char* key, const char* value, const char* ip, const char* port) {$/;"	f	class:CExporter
+RemoveMetricName	OAMS_exporter.cpp	/^bool CExporter::RemoveMetricName(const char* name, const char* ip, const char* port) {$/;"	f	class:CExporter
+RscStatInsert	OAMS_db.cpp	/^int RscStatInsert(int asId, int svrCode, char* DBTime, SYSTEM_RESOURCE_STAT RscStat)$/;"	f
+RunPsRP	OAMS_define.h	/^} RunPsRP;$/;"	t	typeref:struct:__anon34
+RunPsRQ_S	OAMS_define.h	/^} RunPsRQ_S;$/;"	t	typeref:struct:__anon55
+SEND_MAX_SIZE	OAMS_altiCInf.h	29;"	d
+SERVER_INFO	OAMS_data.h	/^} SERVER_INFO;$/;"	t	typeref:struct:__anon18
+SERVER_NAME_LEN	OAMS_define.h	96;"	d
+SERVICE_STAT	OAMS_data.h	/^} SERVICE_STAT;$/;"	t	typeref:struct:__anon20
+SET_CONFIG_OAMS	OAMS_define.h	/^} SET_CONFIG_OAMS;$/;"	t	typeref:struct:set_config_oams
+SNCM_MSG_ID	OAMS_define.h	173;"	d
+SRCS	Makefile	/^SRCS = OAMS_main.cpp OAMS_common.cpp OAMS_data.cpp LIB_nsmlog.cpp OAMS_config.cpp OAMS_mgm.cpp OAMS_exporter.cpp OAMS_altiCInf.cpp OAMS_db.cpp OAMS_limit.cpp OAMS_alarm.cpp OAMS_monitor.cpp \\$/;"	m
+SSW_CONFIG_INFO	OAMS_data.h	/^} SSW_CONFIG_INFO;$/;"	t	typeref:struct:__anon24
+STAT_SUMMERY	OAMS_data.h	/^} STAT_SUMMERY;$/;"	t	typeref:struct:__anon19
+STRING	OAMS_altiCInf.h	/^enum class BindType { INT, STRING, MAXBIND };$/;"	m	class:BindType
+SVC_ITEM	OAMS_define.h	/^} SVC_ITEM;$/;"	t	typeref:struct:__anon37
+SVC_KEY_LEN	OAMS_define.h	55;"	d
+SVC_NAME_LEN	OAMS_define.h	56;"	d
+SVC_USE	OAMS_define.h	/^} SVC_USE;$/;"	t	typeref:struct:__anon38
+SYSTEM_NAME_LEN	OAMS_define.h	98;"	d
+SYSTEM_RESOURCE_STAT	OAMS_data.h	/^} SYSTEM_RESOURCE_STAT;$/;"	t	typeref:struct:__anon22
+SendAlarm	OAMS_alarm.cpp	/^void AlarmManager::SendAlarm(int svrId, int alarmId, int indexId, int alarmFlag, int commentCnt, const char comments[][40])$/;"	f	class:AlarmManager
+SendMmcMsgToMGM	OAMS_mgm.cpp	/^int SendMmcMsgToMGM(int idx, BYTE asId, int len, MMCPDU *send)$/;"	f
+Send_HA_Query	OAMS_mgm.cpp	/^int Send_HA_Query(int asId)$/;"	f
+Send_LoopBack	OAMS_mgm.cpp	/^int Send_LoopBack(int asId)$/;"	f
+ServerArgs	OAMS_exporter.cpp	/^struct ServerArgs {$/;"	s	file:
+ServerChangeHa	OAMS_xbus.cpp	/^int ServerChangeHa(int msgId, CLIENT_INFO *rcv)$/;"	f
+ServerInfoManager	OAMS_data.h	/^class ServerInfoManager {$/;"	c
+ServerShutdownOrReboot	OAMS_xbus.cpp	/^int ServerShutdownOrReboot(int msgId, CLIENT_INFO *rcv)$/;"	f
+ServerStartStop	OAMS_xbus.cpp	/^int ServerStartStop(int msgId, CLIENT_INFO *rcv)$/;"	f
+SetAlarmMetricData	OAMS_exporter.cpp	/^void CExporter::SetAlarmMetricData(const char* ip, const char* port) {$/;"	f	class:CExporter
+SetBoardUseData	OAMS_mgm.cpp	/^void SetBoardUseData(BYTE asId, BYTE xbusId, int len, int cmdNo, void *arg) $/;"	f
+SetFixMetricData	OAMS_exporter.cpp	/^void CExporter::SetFixMetricData(const char* ip, const char* port) {$/;"	f	class:CExporter
+SetHaData	OAMS_mgm.cpp	/^void SetHaData(BYTE asId, BYTE xbusId, int len, HA_USE *rcv)$/;"	f
+SetMetricValue	OAMS_exporter.cpp	/^bool CExporter::SetMetricValue(const char* name, const LabelList* labels, double value, const char* ip, const char* port) {$/;"	f	class:CExporter
+SetModStsData	OAMS_mgm.cpp	/^void SetModStsData(BYTE asId, AllMoStsRP *rcv)$/;"	f
+SetMsgHeaderToMGM	OAMS_mgm.cpp	/^void SetMsgHeaderToMGM(int len, WORD cmdId, MMCHD *head)$/;"	f
+SetPerfData	OAMS_mgm.cpp	/^void SetPerfData(BYTE asId, BYTE xbusId, HW_USE *usage, int xoam_state)$/;"	f
+SetSvcUseData	OAMS_mgm.cpp	/^void SetSvcUseData(BYTE asId, int len, SVC_USE *rcv)$/;"	f
+SetSvrModstate	OAMS_alarm.cpp	/^void AlarmManager::SetSvrModstate(bool set, ALM_Q_MSG* alarmMsg)$/;"	f	class:AlarmManager
+ShutdownRebootRQ_S	OAMS_define.h	/^} ShutdownRebootRQ_S;$/;"	t	typeref:struct:__anon58
+Size	CQueueBase.h	/^    uint Size()$/;"	f	class:CQueueBase
+SqlRequest	OAMS_altiCInf.h	/^struct SqlRequest {$/;"	s
+SqlResponse	OAMS_altiCInf.h	/^typedef vector<BindType> SqlResponse;$/;"	t
+SswConfigInfoManager	OAMS_data.h	/^class SswConfigInfoManager {$/;"	c
+StatDataCPS	OAMS_stat.h	/^}	StatDataCPS[MAX_AS];$/;"	t	typeref:struct:__anon6
+StatMngInit	OAMS_stat.cpp	/^bool StatisticManager::StatMngInit()$/;"	f	class:StatisticManager
+StatTimer5M	OAMS_stat.cpp	/^void StatisticManager::StatTimer5M()$/;"	f	class:StatisticManager
+StatTimerThread_5M	OAMS_stat.cpp	/^void* StatisticManager::StatTimerThread_5M(void* arg)$/;"	f	class:StatisticManager
+StatisticManager	OAMS_stat.cpp	/^StatisticManager::StatisticManager()$/;"	f	class:StatisticManager
+StatisticManager	OAMS_stat.h	/^class StatisticManager {$/;"	c
+SvcKey	OAMS_define.h	/^    char    SvcKey[SVC_KEY_LEN];$/;"	m	struct:__anon37
+SystemResourceStatManager	OAMS_data.h	/^class SystemResourceStatManager {$/;"	c
+TABLESPACE_INFO	OAMS_data.h	/^} TABLESPACE_INFO;$/;"	t	typeref:struct:__anon10
+TARGET	Makefile	/^TARGET = oams$/;"	m
+THREAD_HANDLE	OAMS_altiCInf.h	/^typedef pthread_t THREAD_HANDLE;$/;"	t
+THRESHOLD_INFO	OAMS_data.h	/^} THRESHOLD_INFO;$/;"	t	typeref:struct:__anon23
+TRUE	OAMS_define.h	32;"	d
+TemperStatInsert	OAMS_db.cpp	/^int TemperStatInsert(int asId, int svrCode, char* DBTime, STAT_SUMMERY tempStat)$/;"	f
+ThresholdInfoManager	OAMS_data.h	/^class ThresholdInfoManager {$/;"	c
+ToUpperCase	OAMS_common.cpp	/^void ToUpperCase(char* str) {$/;"	f
+TotalCh	OAMS_define.h	/^    LONG    TotalCh;$/;"	m	struct:__anon41
+TotalCh	OAMS_define.h	/^    LONG    TotalCh;$/;"	m	struct:__anon44
+TotalCh	OAMS_define.h	/^    unsigned long TotalCh;$/;"	m	struct:__anon37
+TotalSuccess	OAMS_define.h	/^    unsigned long TotalSuccess;$/;"	m	struct:__anon37
+TotalUsage	OAMS_define.h	/^    unsigned long TotalUsage;     \/\/$/;"	m	struct:__anon37
+Trim	OAMS_common.cpp	/^int Trim(char *pszBuf, int nLen)$/;"	f
+Unlock	CQueueBase.h	/^    void Unlock() { pthread_mutex_unlock(&m_pMutex); }$/;"	f	class:CQueueBase
+UpdateAlarm	OAMS_alarm.cpp	/^int AlarmManager::UpdateAlarm(int exist, const char* KEY, ALM_Q_MSG* alarmData)$/;"	f	class:AlarmManager
+UpdateCSCFStatus	OAMS_extern.cpp	/^int ExternServerManager::UpdateCSCFStatus(int nASId, int nCSCFId, int runFlag, char *logTime)$/;"	f	class:ExternServerManager
+WAPM_MSG_ID	OAMS_define.h	175;"	d
+WARNING	OAMS_limit.h	/^    WARNING,$/;"	m	class:LimitAlarmLevel
+WaitForQueue	OAMS_xbus.cpp	/^void WaitForQueue(void)$/;"	f
+XOAM_STATE_DOWN	OAMS_define.h	92;"	d
+XOAM_STATE_UP	OAMS_define.h	93;"	d
+__CCONFIG_H__	OAMS_config.h	2;"	d
+__CDATAINFO_H__	OAMS_data.h	2;"	d
+__CLIMIT_H__	OAMS_limit.h	2;"	d
+__CQUEUEBASE_H__	CQueueBase.h	2;"	d
+__LIB_NSMLOG_H__	LIB_nsmlog.h	10;"	d
+__MGMMANNAGER_DEFINE_H__	OAMS_mgm.h	2;"	d
+__OAMS_COMMON_H__	OAMS_common.h	2;"	d
+__OAMS_DEFINE_H__	OAMS_define.h	2;"	d
+__OAMS_HWMON_H__	OAMS_hwmon.h	2;"	d
+a	OAMS_altiCInf.h	/^int a;$/;"	m	struct:__anon3
+aa	OAMS_stat.h	/^	int aa;$/;"	m	struct:__anon6
+action	OAMS_define.h	/^    char    action[6];$/;"	m	struct:__anon50
+action	OAMS_define.h	/^    char    action[6];$/;"	m	struct:__anon51
+alarmConfig	OAMS_data.h	/^    ALARM_CONFIG alarmConfig[MAX_ALARM];$/;"	m	class:AlarmConfigManager
+alarmCreateKey	OAMS_alarm.cpp	/^bool AlarmManager::alarmCreateKey(int type, int asId, int svrId, int index, int alarmCode, char* alarmKey)$/;"	f	class:AlarmManager
+alarmDataRcvQueue	OAMS_alarm.h	/^	CQueueBase<AlarmInfo *> alarmDataRcvQueue;$/;"	m	class:AlarmManager
+alarmExistSearch	OAMS_alarm.cpp	/^ALM_Q_MSG* AlarmManager::alarmExistSearch(const char* KEY)$/;"	f	class:AlarmManager
+alarmFlag	OAMS_alarm.h	/^    uint8_t alarmFlag;      \/\/알람 On\/Off$/;"	m	struct:AlarmInfo
+alarmFlag	OAMS_define.h	/^    uint8_t alarmFlag;      \/\/알람 On\/Off$/;"	m	struct:__anon46
+alarmId	OAMS_alarm.h	/^	int     alarmId;        \/\/알람 코드$/;"	m	struct:AlarmInfo
+alarmId	OAMS_define.h	/^    int     alarmId;        \/\/알람 코드$/;"	m	struct:__anon46
+alarmId	OAMS_define.h	/^    int alarmId;             \/\/알람 코드$/;"	m	struct:__anon47
+alarmKey	OAMS_define.h	/^    char alarmKey[16]; $/;"	m	struct:__anon47
+alarmLevel	OAMS_define.h	/^    int alarmLevel;$/;"	m	struct:__anon47
+alarmMNG	OAMS_common.cpp	/^AlarmManager alarmMNG;$/;"	v
+alarmMetric	OAMS_common.cpp	/^CExporter alarmMetric;$/;"	v
+alarmQueue	OAMS_exporter.h	/^    std::queue<AlarmMessage*> alarmQueue;$/;"	m	class:CExporter
+alarmQueueMutex	OAMS_exporter.h	/^    std::mutex alarmQueueMutex;$/;"	m	class:CExporter
+alarmRcvDataProcess	OAMS_alarm.cpp	/^int AlarmManager::alarmRcvDataProcess(AlarmInfo* alarmMsg)$/;"	f	class:AlarmManager
+alarmRcvDeQueueThread	OAMS_alarm.cpp	/^void AlarmManager::alarmRcvDeQueueThread()$/;"	f	class:AlarmManager
+alarmTime	OAMS_define.h	/^    char    alarmTime[20];$/;"	m	struct:__anon47
+alarmType	OAMS_define.h	/^    int alarmType;$/;"	m	struct:__anon47
+alarm_code	OAMS_define.h	/^    char    alarm_code[10];$/;"	m	struct:__anon50
+alarm_code	OAMS_define.h	/^    char    alarm_code[10];$/;"	m	struct:__anon51
+alarm_desc	OAMS_define.h	/^    char    alarm_desc[256];$/;"	m	struct:__anon50
+alarm_desc	OAMS_define.h	/^    char    alarm_desc[256];$/;"	m	struct:__anon51
+alarm_flag	OAMS_define.h	/^    char    alarm_flag;$/;"	m	struct:__anon50
+alarm_flag	OAMS_define.h	/^    char    alarm_flag;$/;"	m	struct:__anon51
+alarm_idx	OAMS_define.h	/^    char    alarm_idx[4];$/;"	m	struct:__anon50
+alarm_idx	OAMS_define.h	/^    char    alarm_idx[4];$/;"	m	struct:__anon51
+alarm_nms_yn	OAMS_define.h	/^    char    alarm_nms_yn[1];$/;"	m	struct:__anon51
+alarm_notice	OAMS_define.h	/^    char    alarm_notice[4];$/;"	m	struct:__anon50
+alarm_notice	OAMS_define.h	/^    char    alarm_notice[4];$/;"	m	struct:__anon51
+alarm_phase	OAMS_define.h	/^    char    alarm_phase;$/;"	m	struct:__anon50
+alarm_phase	OAMS_define.h	/^    char    alarm_phase;$/;"	m	struct:__anon51
+alarmconfigManager	OAMS_common.cpp	/^AlarmConfigManager    alarmconfigManager;$/;"	v
+alive_flag	OAMS_data.h	/^    bool alive_flag;$/;"	m	struct:__anon25
+altiMutex	OAMS_altiCInf.h	/^	mutex altiMutex;$/;"	m	class:AltiCinf
+altibase	OAMS_altiCInf.h	/^	ALTIBASE 		altibase;$/;"	m	class:AltiCinf
+asDesc	OAMS_data.h	/^    char asDesc[50];$/;"	m	struct:__anon15
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon15
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon16
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon18
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon24
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon25
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon26
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:__anon27
+asId	OAMS_data.h	/^    int asId;$/;"	m	struct:stAsModId
+asId	OAMS_define.h	/^    int asId;$/;"	m	struct:__anon47
+asInfo	OAMS_data.h	/^    AS_INFO asInfo[MAX_AS_EMS];$/;"	m	class:AsInfoManager
+asInfoManager	OAMS_common.cpp	/^AsInfoManager      asInfoManager;$/;"	v
+asName	OAMS_data.h	/^    char asName[AS_NAME_LEN];$/;"	m	struct:__anon15
+asName	OAMS_data.h	/^    char asName[AS_NAME_LEN];$/;"	m	struct:__anon17
+asName	OAMS_data.h	/^    char asName[AS_NAME_LEN];$/;"	m	struct:__anon18
+asName	OAMS_data.h	/^    char asName[AS_NAME_LEN];$/;"	m	struct:__anon28
+as_ip_a	OAMS_common.cpp	/^char    as_ip_a[MAX_AS][IPADDR_LEN+1] = {0};$/;"	v
+as_ip_b	OAMS_common.cpp	/^char    as_ip_b[MAX_AS][IPADDR_LEN+1] = {0};$/;"	v
+as_name	OAMS_define.h	/^    BYTE        as_name[32];$/;"	m	struct:__anon61
+asidx	OAMS_define.h	/^    char asidx[2];$/;"	m	struct:__anon60
+asno	OAMS_define.h	/^    int             asno;$/;"	m	struct:__anon31
+asstatsInfo	OAMS_data.h	/^    AS_STATS asstatsInfo[MAX_AS_EMS];$/;"	m	class:AsStatsInfoManager
+asstatsInfoManager	OAMS_common.cpp	/^AsStatsInfoManager asstatsInfoManager;$/;"	v
+atoiN	OAMS_common.cpp	/^int atoiN(const char *pszData, int nSize)$/;"	f
+attr	OAMS_extern.h	/^	pthread_attr_t attr;$/;"	m	class:ExternServerManager
+avg	OAMS_data.h	/^    int avg;$/;"	m	struct:__anon19
+b	OAMS_altiCInf.h	/^int b;$/;"	m	struct:__anon3
+bUseflag	OAMS_config.h	/^	bool	bUseflag;$/;"	m	struct:__anon5
+beforeLogicProcess	OAMS_alarm.cpp	/^void AlarmManager::beforeLogicProcess(AlarmInfo* alarmMsg)$/;"	f	class:AlarmManager
+bind	OAMS_altiCInf.h	/^	ALTIBASE_BIND 	bind[PARAM_COUNT];$/;"	m	class:AltiCinf
+bindParams	OAMS_altiCInf.h	/^    vector<BindParam> bindParams;$/;"	m	struct:SqlRequest
+bindQueryExcute	OAMS_altiCInf.cpp	/^bool AltiCinf::bindQueryExcute(ALTIBASE_STMT* altibaseBindStmt, SqlRequest request)$/;"	f	class:AltiCinf
+bindQueryExcute	OAMS_altiCInf.cpp	/^bool AltiCinf::bindQueryExcute(SqlRequest *request)$/;"	f	class:AltiCinf
+block	OAMS_data.h	/^    int block;$/;"	m	struct:__anon15
+block	OAMS_data.h	/^    int block;$/;"	m	struct:__anon18
+block	OAMS_data.h	/^    int block;$/;"	m	struct:__anon24
+block_flag	OAMS_data.h	/^    bool block_flag;$/;"	m	struct:__anon25
+blocked	OAMS_define.h	/^    BYTE blocked;$/;"	m	struct:__anon39
+board	OAMS_define.h	/^    BYTE    board;  \/\/SES0~SES15 (0~15), ALL(255)                                                              $/;"	m	struct:__anon57
+c	OAMS_altiCInf.h	/^int c;$/;"	m	struct:__anon3
+cCPS	OAMS_define.h	/^    short   cCPS;$/;"	m	struct:__anon42
+cCPS	OAMS_define.h	/^    short   cCPS;$/;"	m	struct:__anon43
+cCPS	OAMS_define.h	/^    short   cCPS;$/;"	m	struct:__anon45
+cDummy	OAMS_define.h	/^    BYTE    cDummy;$/;"	m	struct:__anon42
+cDummy	OAMS_define.h	/^    BYTE    cDummy;$/;"	m	struct:__anon43
+cDummy	OAMS_define.h	/^    BYTE    cDummy;$/;"	m	struct:__anon45
+cReady	OAMS_define.h	/^    BYTE    cReady;$/;"	m	struct:__anon42
+cReady	OAMS_define.h	/^    BYTE    cReady;$/;"	m	struct:__anon43
+cReady	OAMS_define.h	/^    BYTE    cReady;$/;"	m	struct:__anon45
+cdbTid	OAMS_extern.h	/^	pthread_t cscfTid, mrfTid, cdbTid, externTid;$/;"	m	class:ExternServerManager
+cdbstatusInfo	OAMS_data.h	/^    CDB_STATUS_INFO cdbstatusInfo[MAX_CDB]; $/;"	m	class:CdbStatusInfoManager
+cdbstatusInfoManager	OAMS_common.cpp	/^CdbStatusInfoManager  cdbstatusInfoManager;$/;"	v
+ch_percent	OAMS_define.h	/^    unsigned short ch_percent;      \/\/ SES channel use (%)$/;"	m	struct:__anon39
+ch_use	OAMS_define.h	/^    unsigned int ch_use;\/\/ SES channel use (count) $/;"	m	struct:__anon39
+channel	OAMS_data.h	/^    int channel[4];       \/\/ Channel 임계치$/;"	m	struct:__anon23
+channel_count	OAMS_data.h	/^    int channel_count;$/;"	m	struct:__anon13
+channel_rate	OAMS_data.h	/^    int channel_rate;$/;"	m	struct:__anon13
+chassisId	OAMS_data.h	/^    int chassisId;$/;"	m	struct:__anon16
+chassisId	OAMS_data.h	/^    int chassisId;$/;"	m	struct:__anon18
+chassisId	OAMS_data.h	/^    int chassisId;$/;"	m	struct:stChassisServerId
+chassisInfo	OAMS_data.h	/^    CHASSIS_INFO chassisInfo[MAX_CHASSIS];$/;"	m	class:ChassisInfoManager
+chassisInfoManager	OAMS_common.cpp	/^ChassisInfoManager chassisInfoManager;$/;"	v
+chassisName	OAMS_data.h	/^    char chassisName[30];$/;"	m	struct:__anon16
+chassisType	OAMS_data.h	/^    int chassisType;$/;"	m	struct:__anon16
+check_file_size_limit	LIB_nsmlog.cpp	/^void NSM_LOG::check_file_size_limit(struct tm *p_now)$/;"	f	class:NSM_LOG
+chkEmsModuleState	OAMS_monitor.cpp	/^void chkEmsModuleState()$/;"	f
+close	LIB_nsmlog.cpp	/^void NSM_LOG::close(void)$/;"	f	class:NSM_LOG
+cmdStartMMDB	OAMS_define.h	/^const char cmdStartMMDB[128] = {"ssh %s \/etc\/rc3.d\/S99altibase start"};$/;"	v
+cmdStartMMDB	OAMS_define.h	/^const char cmdStartMMDB[128] = {"ssh as%d%s \/etc\/init.d\/origoasdb start"};$/;"	v
+cmdStartMMDB	OAMS_define.h	/^const char cmdStartMMDB[128] = {"ssh as%d%s \/etc\/rc3.d\/S99altibase start"};$/;"	v
+cmdStopMMDB	OAMS_define.h	/^const char cmdStopMMDB[128] = {"ssh %s \/etc\/rc3.d\/S99altibase stop"};$/;"	v
+cmdStopMMDB	OAMS_define.h	/^const char cmdStopMMDB[128] = {"ssh as%d%s \/etc\/init.d\/origoasdb stop"};$/;"	v
+cmdStopMMDB	OAMS_define.h	/^const char cmdStopMMDB[128] = {"ssh as%d%s \/etc\/rc3.d\/S99altibase stop"};$/;"	v
+command	OAMS_define.h	/^    char    command[128];$/;"	m	struct:__anon59
+comment	OAMS_alarm.h	/^    char    comment[8][40]; \/\/ 참고 메세지$/;"	m	struct:AlarmInfo
+comment	OAMS_define.h	/^    char    comment[128];    \/\/ 참고 메세지$/;"	m	struct:__anon47
+comment	OAMS_define.h	/^    char    comment[8][40]; \/\/ 참고 메세지$/;"	m	struct:__anon46
+commentCnt	OAMS_alarm.h	/^    int     commentCnt;     \/\/ 참고 메세지 개수$/;"	m	struct:AlarmInfo
+commentCnt	OAMS_define.h	/^    int     commentCnt;     \/\/ 참고 메세지 개수$/;"	m	struct:__anon46
+comments	OAMS_define.h	/^    char    comments[128];$/;"	m	struct:__anon59
+commit	OAMS_altiCInf.cpp	/^bool AltiCinf::commit() $/;"	f	class:AltiCinf
+complete_rate	OAMS_data.h	/^    int  complete_rate;$/;"	m	struct:__anon20
+connect	OAMS_altiCInf.cpp	/^bool AltiCinf::connect(const char* connectString = "") $/;"	f	class:AltiCinf
+connectCheckThread	OAMS_altiCInf.cpp	/^void* AltiCinf::connectCheckThread(void* arg)$/;"	f	class:AltiCinf
+convertLimitName	OAMS_common.cpp	/^bool convertLimitName(int alarmField, const char*& LimitName)$/;"	f
+count	OAMS_data.h	/^	int  count;$/;"	m	struct:__anon28
+count	OAMS_data.h	/^	int count;$/;"	m	struct:__anon19
+count	OAMS_define.h	/^    BYTE        count;$/;"	m	struct:__anon38
+count	OAMS_define.h	/^    BYTE    count;$/;"	m	struct:__anon42
+count	OAMS_define.h	/^    BYTE    count;$/;"	m	struct:__anon43
+count	OAMS_define.h	/^    BYTE    count;$/;"	m	struct:__anon45
+count	OAMS_define.h	/^    int count;$/;"	m	struct:__anon53
+count	OAMS_exporter.h	/^    int count;$/;"	m	struct:__anon8
+cprintf	LIB_nsmlog.cpp	/^void NSM_LOG::cprintf(char nLogLevel, const char *fmt, ...)$/;"	f	class:NSM_LOG
+cps	OAMS_data.h	/^    int cps;$/;"	m	struct:__anon21
+cpu	OAMS_data.h	/^    int cpu;$/;"	m	struct:__anon13
+cpu	OAMS_data.h	/^    int cpu[4];           \/\/ CPU 임계치$/;"	m	struct:__anon23
+cpu	OAMS_define.h	/^    int cpu;            \/\/ cpu use(%)$/;"	m	struct:__anon39
+cpu_summery	OAMS_data.h	/^    STAT_SUMMERY cpu_summery;$/;"	m	struct:__anon22
+critical_count	OAMS_data.h	/^    int critical_count;$/;"	m	struct:__anon17
+critical_count	OAMS_data.h	/^    int critical_count;$/;"	m	struct:__anon18
+cscfTid	OAMS_extern.h	/^	pthread_t cscfTid, mrfTid, cdbTid, externTid;$/;"	m	class:ExternServerManager
+data	OAMS_define.h	/^    ORA_MOVER data[30];$/;"	m	struct:__anon53
+dbConnAddr	OAMS_altiCInf.h	/^	char dbConnAddr[256];$/;"	m	class:AltiCinf
+dbConnect	OAMS_common.cpp	/^bool	dbConnect = false;$/;"	v
+dbQueueProcessThread	OAMS_altiCInf.cpp	/^void* AltiCinf::dbQueueProcessThread(void* arg)$/;"	f	class:AltiCinf
+dbSession	OAMS_data.h	/^    int dbSession;$/;"	m	struct:__anon13
+deleteAlarmMap	OAMS_alarm.cpp	/^int AlarmManager::deleteAlarmMap(char* key)$/;"	f	class:AlarmManager
+dest_module	OAMS_define.h	/^    char dest_module[2];$/;"	m	struct:__anon60
+dest_svr	OAMS_define.h	/^    char dest_svr[2];$/;"	m	struct:__anon60
+dis_config_oams	OAMS_define.h	/^typedef struct dis_config_oams$/;"	s
+dis_stat_oams	OAMS_define.h	/^typedef struct dis_stat_oams$/;"	s
+discardChannel	OAMS_data.h	/^    int discardChannel;$/;"	m	struct:__anon21
+disconnect	OAMS_altiCInf.cpp	/^void AltiCinf::disconnect() {$/;"	f	class:AltiCinf
+disk	OAMS_data.h	/^    int disk;$/;"	m	struct:__anon13
+disk	OAMS_data.h	/^    int disk[4];          \/\/ DISK 임계치$/;"	m	struct:__anon23
+disk	OAMS_define.h	/^    int disk;           \/\/ disk use(%)$/;"	m	struct:__anon39
+diskStatus	OAMS_data.h	/^    int diskStatus[MAX_HW];$/;"	m	struct:__anon12
+disk_summery	OAMS_data.h	/^    STAT_SUMMERY disk_summery;$/;"	m	struct:__anon22
+dummy	OAMS_define.h	/^    BYTE dummy;$/;"	m	struct:__anon40
+errCnt	OAMS_extern.h	/^	int errCnt;$/;"	m	struct:__anon1
+exporter	OAMS_exporter.cpp	/^    CExporter* exporter;$/;"	m	struct:ServerArgs	file:
+ext_send	OAMS_data.h	/^    int ext_send;$/;"	m	struct:__anon29
+externCnt	OAMS_extern.h	/^	ExternCnt externCnt[MAX_AS_EMS];$/;"	m	class:ExternServerManager
+externServerManager	OAMS_common.cpp	/^ExternServerManager	externServerManager;$/;"	v
+externTid	OAMS_extern.h	/^	pthread_t cscfTid, mrfTid, cdbTid, externTid;$/;"	m	class:ExternServerManager
+externalIfInfoManager	OAMS_common.cpp	/^ExternalIfInfoManager externalIfInfoManager;$/;"	v
+externalifInfo	OAMS_data.h	/^    EXTERNAL_IF_INFO externalifInfo[MAX_EXTERNAL];$/;"	m	class:ExternalIfInfoManager
+extractModuleBaseName	OAMS_xbus.cpp	/^void extractModuleBaseName(const char* moduleName, char* result, size_t resultSize) {$/;"	f
+f_test_select	OAMS_altiCInf.cpp	/^test_select AltiCinf::f_test_select(int a)$/;"	f	class:AltiCinf
+fanStatus	OAMS_data.h	/^    int fanStatus[MAX_HW];$/;"	m	struct:__anon12
+fileopen	LIB_nsmlog.cpp	/^FILE *NSM_LOG::fileopen(void)$/;"	f	class:NSM_LOG
+fixMetric	OAMS_common.cpp	/^CExporter fixMetric;$/;"	v
+formatDateTime	OAMS_common.cpp	/^void formatDateTime(const char* input, char* output, size_t output_size) {$/;"	f
+gAlarmPort	OAMS_common.cpp	/^char    gAlarmPort[6];$/;"	v
+gEmsProcess	OAMS_common.cpp	/^std::vector<std::pair<std::string, std::string>>  gEmsProcess;$/;"	v
+gFixPort	OAMS_common.cpp	/^char    gFixPort[6];$/;"	v
+gMccsEmsA	OAMS_common.cpp	/^char    gMccsEmsA[16];$/;"	v
+gMccsEmsB	OAMS_common.cpp	/^char    gMccsEmsB[16];$/;"	v
+gMccsProcess	OAMS_common.cpp	/^std::vector<std::pair<std::string, std::string>>  gMccsProcess;$/;"	v
+gMccsUse	OAMS_common.cpp	/^char    gMccsUse[6];$/;"	v
+gMgmFd	OAMS_common.cpp	/^int     gMgmFd[MAX_AS_EMS] = {0};$/;"	v
+gSvrEmsA	OAMS_common.cpp	/^int     gSvrEmsA;$/;"	v
+gSvrEmsB	OAMS_common.cpp	/^int     gSvrEmsB;$/;"	v
+g_Alarm_Flag	OAMS_common.cpp	/^int   	g_Alarm_Flag = 0;$/;"	v
+g_NMS_Alarm_Sendflag	OAMS_common.cpp	/^int     g_NMS_Alarm_Sendflag;    \/\/ 0 : off, 1 : on$/;"	v
+g_bDEBUG_LOGFILE	OAMS_common.cpp	/^bool    g_bDEBUG_LOGFILE;$/;"	v
+g_cfg	OAMS_common.cpp	/^CConfig   g_cfg;$/;"	v
+g_curCntClients	OAMS_common.cpp	/^int     g_curCntClients = 0;$/;"	v
+g_mgmQue	OAMS_common.cpp	/^LibQ    g_mgmQue[MAX_AS];$/;"	v
+g_mgmTimeOut	OAMS_common.cpp	/^bool    g_mgmTimeOut[MAX_AS] = {false};$/;"	v
+g_nDebug_level	OAMS_common.cpp	/^int     g_nDebug_level;$/;"	v
+getASInfo	OAMS_data.cpp	/^void AsInfoManager::getASInfo(int index, AS_INFO& info) const {$/;"	f	class:AsInfoManager
+getAlarmConfig	OAMS_data.cpp	/^void AlarmConfigManager::getAlarmConfig(int index, ALARM_CONFIG& info) const {$/;"	f	class:AlarmConfigManager
+getAsStats	OAMS_data.cpp	/^void AsStatsInfoManager::getAsStats(int index, AS_STATS& info) const {$/;"	f	class:AsStatsInfoManager
+getCdbStatusInfo	OAMS_data.cpp	/^void CdbStatusInfoManager::getCdbStatusInfo(int index, CDB_STATUS_INFO& info) const {$/;"	f	class:CdbStatusInfoManager
+getChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::getChassisInfo(int index, CHASSIS_INFO& info) const {$/;"	f	class:ChassisInfoManager
+getExternalIfInfo	OAMS_data.cpp	/^void ExternalIfInfoManager::getExternalIfInfo(int index, EXTERNAL_IF_INFO& info) const {$/;"	f	class:ExternalIfInfoManager
+getMccsState	OAMS_monitor.cpp	/^int getMccsState()$/;"	f
+getModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::getModuleInfo(int asindex, int moindex, MODULE_INFO& info) const {$/;"	f	class:ModuleInfoManager
+getMsConfigInfo	OAMS_data.cpp	/^void MsConfigInfoManager::getMsConfigInfo(int index, MS_CONFIG_INFO& info) const {$/;"	f	class:MsConfigInfoManager
+getPerformance	OAMS_data.cpp	/^void PerformanceManager::getPerformance(int index, PERFORMANCE& info) const {$/;"	f	class:PerformanceManager
+getRemoteMccsState	OAMS_monitor.cpp	/^BYTE getRemoteMccsState()$/;"	f
+getServerASID	OAMS_data.cpp	/^int ServerInfoManager::getServerASID(int index){$/;"	f	class:ServerInfoManager
+getServerCode	OAMS_data.cpp	/^int ServerInfoManager::getServerCode(int index){$/;"	f	class:ServerInfoManager
+getServerInfo	OAMS_data.cpp	/^void ServerInfoManager::getServerInfo(int index, SERVER_INFO& info) const {$/;"	f	class:ServerInfoManager
+getSideFromServerName	OAMS_xbus.cpp	/^int getSideFromServerName(const char* server_name) {$/;"	f
+getSswConfigInfo	OAMS_data.cpp	/^void SswConfigInfoManager::getSswConfigInfo(int index, SSW_CONFIG_INFO& info) const {$/;"	f	class:SswConfigInfoManager
+getSystemResourceStat	OAMS_data.cpp	/^void SystemResourceStatManager::getSystemResourceStat(int index, SYSTEM_RESOURCE_STAT& info) const {$/;"	f	class:SystemResourceStatManager
+getThresHoldInfo	OAMS_data.cpp	/^void ThresholdInfoManager::getThresHoldInfo(THRESHOLD_INFO& info) const {$/;"	f	class:ThresholdInfoManager
+get_filename	LIB_nsmlog.cpp	/^const char *NSM_LOG::get_filename(void)$/;"	f	class:NSM_LOG
+get_level	LIB_nsmlog.cpp	/^int8_t NSM_LOG::get_level(void)$/;"	f	class:NSM_LOG
+groupId	OAMS_data.h	/^    int groupId;$/;"	m	struct:__anon27
+groupSeq	OAMS_data.h	/^    int groupSeq;$/;"	m	struct:__anon27
+ha	OAMS_data.h	/^    int ha;$/;"	m	struct:__anon14
+ha	OAMS_data.h	/^    int ha;$/;"	m	struct:__anon17
+haRoleA	OAMS_define.h	/^    BYTE    haRoleA;        \/\/null, unsign, unsign, active, unsign, standby                                    $/;"	m	struct:__anon36
+haRoleB	OAMS_define.h	/^    BYTE    haRoleB;$/;"	m	struct:__anon36
+head	LIB_nsmlog.cpp	/^void NSM_LOG::head(int nLogLevel, const char *fmt, char *strBuf, int nLen)$/;"	f	class:NSM_LOG
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon31
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon32
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon34
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon35
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon55
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head                                                                            $/;"	m	struct:__anon57
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head$/;"	m	struct:__anon56
+head	OAMS_define.h	/^    MMCHD   head;           \/\/ head$/;"	m	struct:__anon58
+head	OAMS_define.h	/^    MMCHD   head;$/;"	m	struct:__anon36
+head	OAMS_define.h	/^    PACK_WAPM_HEAD head;$/;"	m	struct:__anon49
+header	OAMS_define.h	/^    MMCHD   header; $/;"	m	struct:__anon46
+hwData	OAMS_data.h	/^    HW hwData;$/;"	m	struct:__anon16
+hwData	OAMS_data.h	/^    HW hwData;$/;"	m	struct:__anon18
+hwMonitorManager	OAMS_common.cpp	/^CHWMonitor	hwMonitorManager;$/;"	v
+id	OAMS_define.h	/^    int id;$/;"	m	struct:__anon48
+index	OAMS_altiCInf.h	/^    int index;        \/\/ ���ε� ��ġ$/;"	m	class:BindParam
+index	OAMS_data.h	/^    int index;$/;"	m	struct:__anon24
+index	OAMS_data.h	/^    int index;$/;"	m	struct:__anon25
+indexId	OAMS_alarm.h	/^    int     indexId;        \/\/INDEX  \/\/xbus id or extemd index$/;"	m	struct:AlarmInfo
+indexId	OAMS_define.h	/^    int     indexId;        \/\/INDEX  \/\/xbus id or extemd index$/;"	m	struct:__anon46
+indexId	OAMS_define.h	/^    int indexId;             \/\/INDEX  \/\/xbus id or extemd index$/;"	m	struct:__anon47
+init	LIB_nsmlog.cpp	/^bool NSM_LOG::init(const char *path, const char *name)$/;"	f	class:NSM_LOG
+initDB	OAMS_db.cpp	/^void* initDB(void* arg)$/;"	f
+initDBThread	OAMS_db.cpp	/^void initDBThread()$/;"	f
+initialize	OAMS_altiCInf.cpp	/^bool AltiCinf::initialize(const char* szConnStr)$/;"	f	class:AltiCinf
+initialize	OAMS_limit.cpp	/^bool ClimitProcess::initialize()$/;"	f	class:ClimitProcess
+insertAlarmMap	OAMS_alarm.cpp	/^int AlarmManager::insertAlarmMap(char* key, ALM_Q_MSG* alarmData)$/;"	f	class:AlarmManager
+intValue	OAMS_altiCInf.h	/^        int intValue;$/;"	m	union:BindParam::__anon2
+ip	OAMS_data.h	/^    char ip[IP_LEN];$/;"	m	struct:__anon18
+ip	OAMS_data.h	/^    char ip[IP_LEN];$/;"	m	struct:__anon24
+ip	OAMS_data.h	/^    char ip[IP_LEN];$/;"	m	struct:__anon25
+ip	OAMS_data.h	/^    char ip[IP_LEN];$/;"	m	struct:__anon26
+ip	OAMS_data.h	/^    char ip[IP_LEN];$/;"	m	struct:__anon27
+ip	OAMS_exporter.cpp	/^    const char* ip;$/;"	m	struct:ServerArgs	file:
+isConnect	OAMS_altiCInf.h	/^	inline bool isConnect(void) { return m_bConnected; };$/;"	f	class:AltiCinf
+item	OAMS_define.h	/^    BD_ITEM item[30];$/;"	m	struct:__anon42
+item	OAMS_define.h	/^    BD_ITEM item[30];$/;"	m	struct:__anon43
+item	OAMS_define.h	/^    BD_ITEM_V3 item[30];$/;"	m	struct:__anon45
+item	OAMS_define.h	/^    SVC_ITEM    item[MAX_SVC_USE];$/;"	m	struct:__anon38
+key	OAMS_exporter.h	/^    char key[MAX_LABEL_KEY_LEN];$/;"	m	struct:__anon7
+keyword	OAMS_define.h	/^    char    keyword[13];$/;"	m	struct:__anon59
+labelListMutex	OAMS_exporter.h	/^    std::mutex labelListMutex;$/;"	m	class:CExporter
+labelListOnly	OAMS_exporter.h	/^    std::vector<std::string> labelListOnly;$/;"	m	class:CExporter
+labelQueue	OAMS_exporter.h	/^    std::deque<std::pair<std::chrono::system_clock::time_point, std::string>> labelQueue;$/;"	m	class:CExporter
+labelQueueMutex	OAMS_exporter.h	/^    std::mutex labelQueueMutex;$/;"	m	class:CExporter
+labels	OAMS_exporter.h	/^    Label labels[MAX_LABEL_COUNT];$/;"	m	struct:__anon8
+len	OAMS_define.h	/^    char len[4];$/;"	m	struct:__anon60
+length	OAMS_altiCInf.h	/^	ALTIBASE_LONG length[static_cast<int>(BindType::MAXBIND)];$/;"	m	class:AltiCinf
+limitProc	OAMS_common.cpp	/^ClimitProcess limitProc;$/;"	v
+lock_mutex	LIB_nsmlog.h	/^    mutable std::mutex lock_mutex;$/;"	m	class:NSM_LOG
+log_time	OAMS_define.h	/^    char    log_time[15];$/;"	m	struct:__anon59
+m_AlarmMap	OAMS_alarm.h	/^	map<string, ALM_Q_MSG*> m_AlarmMap; $/;"	m	class:AlarmManager
+m_CfgMap	OAMS_config.h	/^	map<string, string> m_CfgMap;		\/\/ 일반 config Map$/;"	m	class:CConfig
+m_CscfMutex	OAMS_extern.h	/^	std::mutex m_CscfMutex;$/;"	m	class:ExternServerManager
+m_MgmInfo	OAMS_config.h	/^	MGM_INFO			m_MgmInfo[MAX_AS];	\/\/ AS 별 OMS A\/B IP$/;"	m	class:CConfig
+m_MrfMutex	OAMS_extern.h	/^	std::mutex m_MrfMutex;$/;"	m	class:ExternServerManager
+m_bConnected	OAMS_altiCInf.h	/^	bool m_bConnected;$/;"	m	class:AltiCinf
+m_bShmFlag	OAMS_hwmon.h	/^	bool				m_bShmFlag;$/;"	m	class:CHWMonitor
+m_backup_file_format	LIB_nsmlog.h	/^    char        m_backup_file_format[MAX_LOG_NAME_LEN+1];  \/\/ LOG BACKUPFILE Format $/;"	m	class:NSM_LOG
+m_filename	LIB_nsmlog.h	/^    char        m_filename[MAX_LOG_NAME_LEN+1];            \/\/ open Log Filename $/;"	m	class:NSM_LOG
+m_fp	LIB_nsmlog.h	/^    FILE        *m_fp;              \/\/ Log file pointer$/;"	m	class:NSM_LOG
+m_level	LIB_nsmlog.h	/^    int8_t      m_level;            \/\/ Log Level$/;"	m	class:NSM_LOG
+m_log_file_format	LIB_nsmlog.h	/^    char        m_log_file_format[MAX_LOG_NAME_LEN+1];     \/\/ LOG FILE Format $/;"	m	class:NSM_LOG
+m_mapMutex	OAMS_alarm.h	/^	std::mutex	m_mapMutex;$/;"	m	class:AlarmManager
+m_max_limit	LIB_nsmlog.h	/^    uint32_t    m_max_limit;        \/\/ LOG file size (BYTE) $/;"	m	class:NSM_LOG
+m_nEMSID	OAMS_config.h	/^	int	m_nEMSID;$/;"	m	class:CConfig
+m_open_day	LIB_nsmlog.h	/^    int         m_open_day;         \/\/ Date of the currently open log file name - to change the file when the day changes $/;"	m	class:NSM_LOG
+m_pMutex	CQueueBase.h	/^    pthread_mutex_t     m_pMutex;$/;"	m	class:CQueueBase
+m_pMutex	OAMS_config.h	/^    mutable std::mutex m_pMutex;$/;"	m	class:CConfig
+m_queue	CQueueBase.h	/^    deque<T>            m_queue;$/;"	m	class:CQueueBase
+main	OAMS_main.cpp	/^int main(int argc, char* argv[])$/;"	f
+major_count	OAMS_data.h	/^    int major_count;$/;"	m	struct:__anon17
+major_count	OAMS_data.h	/^    int major_count;$/;"	m	struct:__anon18
+make_strTime	OAMS_common.cpp	/^void make_strTime(char strTime[15], long t)$/;"	f
+mask	OAMS_define.h	/^    int mask;$/;"	m	struct:__anon47
+max	OAMS_data.h	/^    int max;$/;"	m	struct:__anon19
+mbus_callback	OAMS_xbus.cpp	/^int mbus_callback(int len, BYTE *packet)$/;"	f
+mem	OAMS_define.h	/^    int mem;            \/\/ memory use(%)$/;"	m	struct:__anon39
+mem_summery	OAMS_data.h	/^    STAT_SUMMERY mem_summery;$/;"	m	struct:__anon22
+memory	OAMS_data.h	/^    int memory;$/;"	m	struct:__anon13
+memory	OAMS_data.h	/^    int memory[4];        \/\/ MEMORY 임계치$/;"	m	struct:__anon23
+min	OAMS_data.h	/^    int min;$/;"	m	struct:__anon19
+minor_count	OAMS_data.h	/^    int minor_count;$/;"	m	struct:__anon17
+minor_count	OAMS_data.h	/^    int minor_count;$/;"	m	struct:__anon18
+minusAlarmCountModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::minusAlarmCountModuleInfo(int asindex, int moindex, int type) {$/;"	f	class:ModuleInfoManager
+minusAlarmCountServerInfo	OAMS_data.cpp	/^void ServerInfoManager::minusAlarmCountServerInfo(int index, int type) {$/;"	f	class:ServerInfoManager
+mmc_head	OAMS_define.h	/^    MMCHD   mmc_head;$/;"	m	struct:dis_config_oams
+mmc_head	OAMS_define.h	/^    MMCHD   mmc_head;$/;"	m	struct:dis_stat_oams
+mmc_head	OAMS_define.h	/^    MMCHD   mmc_head;$/;"	m	struct:set_config_oams
+moId	OAMS_define.h	/^    BYTE moId;    $/;"	m	struct:__anon40
+moduleEmsGwsStateChange	OAMS_xbus.cpp	/^void moduleEmsGwsStateChange(BYTE xbusId, int state)$/;"	f
+moduleId	OAMS_data.h	/^    int moduleId;$/;"	m	struct:__anon17
+moduleId	OAMS_data.h	/^    int moduleId;$/;"	m	struct:stAsModId
+moduleIdA	OAMS_define.h	/^    BYTE    moduleIdA;$/;"	m	struct:__anon36
+moduleIdB	OAMS_define.h	/^    BYTE    moduleIdB;$/;"	m	struct:__anon36
+moduleInfo	OAMS_data.h	/^    MODULE_INFO moduleInfo[MAX_AS_EMS][MAX_MODULE];$/;"	m	class:ModuleInfoManager
+moduleInfoManager	OAMS_common.cpp	/^ModuleInfoManager  moduleInfoManager;$/;"	v
+moduleName	OAMS_data.h	/^    char moduleName[MODULE_NAME_LEN];$/;"	m	struct:__anon17
+module_code	OAMS_define.h	/^    int module_code;$/;"	m	struct:__anon52
+module_name	OAMS_define.h	/^    BYTE        module_name[32];$/;"	m	struct:__anon61
+module_name	OAMS_define.h	/^    char module_name[10];$/;"	m	struct:__anon52
+module_version	OAMS_define.h	/^    char module_version[10];$/;"	m	struct:__anon52
+monitor	OAMS_data.h	/^    int monitor;$/;"	m	struct:__anon24
+monitorHWThread	OAMS_hwmon.cpp	/^void* CHWMonitor::monitorHWThread(void* arg)$/;"	f	class:CHWMonitor
+monitorServerHealth	OAMS_exporter.cpp	/^void CExporter::monitorServerHealth(const char* ip, const char* port) {$/;"	f	class:CExporter
+mover	OAMS_define.h	/^   MOVER mover;$/;"	m	struct:__anon54
+mrfTid	OAMS_extern.h	/^	pthread_t cscfTid, mrfTid, cdbTid, externTid;$/;"	m	class:ExternServerManager
+msconfigInfo	OAMS_data.h	/^    MS_CONFIG_INFO msconfigInfo[MAX_MS];$/;"	m	class:MsConfigInfoManager
+msconfigInfoManager	OAMS_common.cpp	/^MsConfigInfoManager  msconfigInfoManager;$/;"	v
+msg	OAMS_exporter.h	/^    ALM_Q_MSG* msg;            \/\/ ALM_Q_MSG 포인터$/;"	m	struct:__anon9
+msgId	OAMS_define.h	/^    char msgId[4];$/;"	m	struct:__anon60
+my_ReadDataWORD	OAMS_mgm.cpp	/^int my_ReadDataWORD(int fd, char *buf, int rmax) {$/;"	f
+nASID	OAMS_mgm.h	/^    int nASID;$/;"	m	struct:__anon4
+nCMC_Counts	OAMS_define.h	/^    int     nCMC_Counts;                $/;"	m	struct:dis_stat_oams
+nOverloadCount	OAMS_define.h	/^    unsigned int nOverloadCount;$/;"	m	struct:__anon43
+nOverloadCount	OAMS_define.h	/^    unsigned int nOverloadCount;$/;"	m	struct:__anon45
+nSyncCount	OAMS_define.h	/^    LONG    nSyncCount;$/;"	m	struct:__anon44
+name	OAMS_data.h	/^    char name[20];$/;"	m	struct:__anon10
+name	OAMS_data.h	/^    char name[20];$/;"	m	struct:__anon11
+name	OAMS_define.h	/^    char    name[31];$/;"	m	struct:__anon33
+net	OAMS_define.h	/^    int net;            \/\/ packet numbers$/;"	m	struct:__anon39
+netStatus	OAMS_data.h	/^    NET_STATUS netStatus[MAX_LAN_PORT];$/;"	m	struct:__anon12
+net_summery	OAMS_data.h	/^    STAT_SUMMERY net_summery;$/;"	m	struct:__anon22
+network	OAMS_data.h	/^    int network;$/;"	m	struct:__anon13
+network	OAMS_data.h	/^    int network[4];       \/\/ NETWORK 임계치$/;"	m	struct:__anon23
+newState	OAMS_define.h	/^    BYTE newState;                                                                                     $/;"	m	struct:__anon40
+ntp	OAMS_data.h	/^    int ntp;$/;"	m	struct:__anon13
+ntp	OAMS_data.h	/^    int ntp[4];           \/\/ NTP 임계치$/;"	m	struct:__anon23
+oaStatus	OAMS_data.h	/^    HaStatusInfo oaStatus[MAX_HW];$/;"	m	struct:__anon16
+oldState	OAMS_define.h	/^    BYTE oldState;           $/;"	m	struct:__anon40
+op_id	OAMS_define.h	/^    char    op_id[15];$/;"	m	struct:__anon59
+op_ip	OAMS_define.h	/^    char    op_ip[18];$/;"	m	struct:__anon59
+operator <	OAMS_data.h	/^    bool operator<(const stAsModId& other) const {$/;"	f	struct:stAsModId
+pDB	OAMS_db.cpp	/^AltiCinf *pDB;$/;"	v
+pExecDB	OAMS_db.cpp	/^AltiCinf *pExecDB;$/;"	v
+peaktime	OAMS_data.h	/^    char peaktime[20];$/;"	m	struct:__anon19
+performance	OAMS_data.h	/^    PERFORMANCE performance[MAX_SERVER];$/;"	m	class:PerformanceManager
+performanceManager	OAMS_common.cpp	/^PerformanceManager performanceManager;$/;"	v
+pid	OAMS_define.h	/^    int     pid;                                                                     $/;"	m	struct:__anon33
+plusAlarmCountModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::plusAlarmCountModuleInfo(int asindex, int moindex, int type) {$/;"	f	class:ModuleInfoManager
+plusAlarmCountServerInfo	OAMS_data.cpp	/^void ServerInfoManager::plusAlarmCountServerInfo(int index, int type) {$/;"	f	class:ServerInfoManager
+port	OAMS_data.h	/^    char port[PORT_LEN];$/;"	m	struct:__anon24
+port	OAMS_data.h	/^    char port[PORT_LEN];$/;"	m	struct:__anon25
+port	OAMS_data.h	/^    char port[PORT_LEN];$/;"	m	struct:__anon26
+port	OAMS_data.h	/^    char port[PORT_LEN];$/;"	m	struct:__anon27
+port	OAMS_exporter.cpp	/^    const char* port;$/;"	m	struct:ServerArgs	file:
+powerStatus	OAMS_data.h	/^    int powerStatus[MAX_HW];$/;"	m	struct:__anon12
+printASInfo	OAMS_data.cpp	/^void AsInfoManager::printASInfo() const {$/;"	f	class:AsInfoManager
+printAlarmConfig	OAMS_data.cpp	/^void AlarmConfigManager::printAlarmConfig() const {$/;"	f	class:AlarmConfigManager
+printAsStats	OAMS_data.cpp	/^void AsStatsInfoManager::printAsStats() const {$/;"	f	class:AsStatsInfoManager
+printChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::printChassisInfo() const {$/;"	f	class:ChassisInfoManager
+printModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::printModuleInfo() const {$/;"	f	class:ModuleInfoManager
+printPerformance	OAMS_data.cpp	/^void PerformanceManager::printPerformance() const {$/;"	f	class:PerformanceManager
+printServerInfo	OAMS_data.cpp	/^void ServerInfoManager::printServerInfo() const {$/;"	f	class:ServerInfoManager
+printThresholdInfo	OAMS_data.cpp	/^void ThresholdInfoManager::printThresholdInfo() const {$/;"	f	class:ThresholdInfoManager
+printf	LIB_nsmlog.cpp	/^void NSM_LOG::printf(char nLogLevel, const char *fmt, ...)$/;"	f	class:NSM_LOG
+proc_received_xbus_message	OAMS_xbus.cpp	/^void *proc_received_xbus_message(void *arg)$/;"	f
+process_MGM_msg	OAMS_mgm.cpp	/^void *process_MGM_msg(void *arg)$/;"	f
+ps	OAMS_define.h	/^    BYTE    ps;$/;"	m	struct:__anon55
+ps	OAMS_define.h	/^    PSINFO  ps;                                               $/;"	m	struct:__anon35
+ps	OAMS_define.h	/^    PSINFO  ps;        $/;"	m	struct:__anon34
+ps_ptr	OAMS_define.h	/^    BYTE    ps_ptr;    $/;"	m	struct:__anon34
+ps_ptr	OAMS_define.h	/^    BYTE    ps_ptr;    $/;"	m	struct:__anon35
+pthreadhd	OAMS_db.cpp	/^pthread_t   pthreadhd;$/;"	v
+query	OAMS_altiCInf.h	/^    string query;$/;"	m	struct:SqlRequest
+r_buf	OAMS_common.cpp	/^int     r_buf = 0;$/;"	v
+rackId	OAMS_data.h	/^    int rackId;$/;"	m	struct:__anon16
+rcv	OAMS_mgm.h	/^    unsigned char rcv[1024 + 1];$/;"	m	struct:__anon4
+rcvSize	OAMS_mgm.h	/^    int rcvSize;$/;"	m	struct:__anon4
+readExact	OAMS_mgm.cpp	/^int readExact(int fd, char* buffer, int length) {$/;"	f
+reason	OAMS_define.h	/^    BYTE    reason;    $/;"	m	struct:__anon34
+reason	OAMS_define.h	/^    BYTE    reason;    $/;"	m	struct:__anon35
+reason	OAMS_define.h	/^    BYTE    reason;$/;"	m	struct:__anon36
+rebuild	OAMS_data.h	/^    int rebuild;$/;"	m	struct:__anon18
+reserve	OAMS_define.h	/^    BYTE reserve[8];$/;"	m	struct:__anon40
+reserve	OAMS_define.h	/^    char reserve[4];$/;"	m	struct:__anon60
+response	OAMS_define.h	/^    char    response;$/;"	m	struct:__anon49
+result	OAMS_define.h	/^    BYTE    result;    $/;"	m	struct:__anon34
+result	OAMS_define.h	/^    BYTE    result;    $/;"	m	struct:__anon35
+result	OAMS_define.h	/^    BYTE    result;$/;"	m	struct:__anon36
+result	OAMS_define.h	/^    char    result[6];$/;"	m	struct:__anon59
+resv	OAMS_define.h	/^    char resv[16];$/;"	m	struct:__anon48
+rollback	OAMS_altiCInf.cpp	/^bool AltiCinf::rollback() $/;"	f	class:AltiCinf
+run_state	OAMS_define.h	/^    char    run_state;$/;"	m	struct:__anon33
+sERROR	OAMS_define.h	82;"	d
+sbus_callback	OAMS_xbus.cpp	/^int sbus_callback(int len, BYTE *packet)$/;"	f
+send_as_version	OAMS_xbus.cpp	/^void send_as_version(MMCPDU *msg_MMC)$/;"	f
+send_client_type	OAMS_mgm.cpp	/^int send_client_type(int sockfd, BYTE my_type)$/;"	f
+send_config_mmc	OAMS_xbus.cpp	/^void send_config_mmc(MMCPDU *msg_MMC)$/;"	f
+send_initial_alarm_request	OAMS_mgm.cpp	/^int send_initial_alarm_request(int asId, int sockfd)$/;"	f
+send_stat_mmc	OAMS_xbus.cpp	/^void send_stat_mmc(MMCPDU *msg_MMC)$/;"	f
+sequence	OAMS_define.h	/^    int             sequence;$/;"	m	struct:__anon31
+serverCode	OAMS_data.h	/^    int serverCode;$/;"	m	struct:__anon17
+serverCode	OAMS_data.h	/^    int serverCode;$/;"	m	struct:__anon18
+serverId	OAMS_data.h	/^    int serverId;$/;"	m	struct:__anon17
+serverId	OAMS_data.h	/^    int serverId;$/;"	m	struct:__anon18
+serverId	OAMS_data.h	/^    int serverId;$/;"	m	struct:stChassisServerId
+serverId	OAMS_define.h	/^    int serverId;$/;"	m	struct:__anon47
+serverInfo	OAMS_data.h	/^    SERVER_INFO serverInfo[MAX_SERVER];$/;"	m	class:ServerInfoManager
+serverInfoManager	OAMS_common.cpp	/^ServerInfoManager  serverInfoManager;$/;"	v
+serverName	OAMS_data.h	/^    char serverName[SERVER_NAME_LEN];$/;"	m	struct:__anon17
+serverName	OAMS_data.h	/^    char serverName[SERVER_NAME_LEN];$/;"	m	struct:__anon18
+serverStatus	OAMS_data.h	/^    HaStatusInfo serverStatus;$/;"	m	struct:__anon18
+serverType	OAMS_data.h	/^    int serverType;$/;"	m	struct:__anon18
+server_name	OAMS_define.h	/^    BYTE        server_name[32];$/;"	m	struct:__anon61
+serviceStat	OAMS_data.h	/^    SERVICE_STAT serviceStat[MAX_SVC_USE];$/;"	m	struct:__anon21
+service_key	OAMS_data.h	/^    char service_key[SVC_KEY_LEN];$/;"	m	struct:__anon20
+session	OAMS_data.h	/^    int session[4];       \/\/ 세션 임계치$/;"	m	struct:__anon23
+session	OAMS_define.h	/^    long session;$/;"	m	struct:__anon48
+setASInfo	OAMS_data.cpp	/^void AsInfoManager::setASInfo(int index, const char *asName, const char *asDesc) {$/;"	f	class:AsInfoManager
+setAlarmConfig	OAMS_data.cpp	/^void AlarmConfigManager::setAlarmConfig(int index, const ALARM_CONFIG& info) {$/;"	f	class:AlarmConfigManager
+setAlarmMetricDataWrapper	OAMS_exporter.cpp	/^void* setAlarmMetricDataWrapper(void* arg) {$/;"	f
+setAsStatsInfo	OAMS_data.cpp	/^void AsStatsInfoManager::setAsStatsInfo(int index, const char *service_key) {$/;"	f	class:AsStatsInfoManager
+setBlockServerInfo	OAMS_data.cpp	/^void ServerInfoManager::setBlockServerInfo(int index, int block)$/;"	f	class:ServerInfoManager
+setCdbStatusInfo	OAMS_data.cpp	/^void CdbStatusInfoManager::setCdbStatusInfo(int index, const CDB_STATUS_INFO& info) {$/;"	f	class:CdbStatusInfoManager
+setChAsStatsInfo	OAMS_data.cpp	/^void AsStatsInfoManager::setChAsStatsInfo(int index, int cmdNo, void *arg)$/;"	f	class:AsStatsInfoManager
+setChPerformance	OAMS_data.cpp	/^void PerformanceManager::setChPerformance(int index, int cmdNo, void *arg) {$/;"	f	class:PerformanceManager
+setChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::setChassisInfo(int index, int asId, int rackId, int chassisType, const char *chassisName, bool use)$/;"	f	class:ChassisInfoManager
+setDBSessionPerformance	OAMS_data.cpp	/^void PerformanceManager::setDBSessionPerformance(int serveridx, int use) {$/;"	f	class:PerformanceManager
+setExternalIfInfo	OAMS_data.cpp	/^void ExternalIfInfoManager::setExternalIfInfo(int index, const EXTERNAL_IF_INFO& info) {$/;"	f	class:ExternalIfInfoManager
+setFixMetricDataWrapper	OAMS_exporter.cpp	/^void* setFixMetricDataWrapper(void* arg) {$/;"	f
+setHaEmsModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::setHaEmsModuleInfo(int side, int result) {$/;"	f	class:ModuleInfoManager
+setHaModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::setHaModuleInfo(int asindex, int moindex, int ha) {$/;"	f	class:ModuleInfoManager
+setHaServerInfo	OAMS_data.cpp	/^void ServerInfoManager::setHaServerInfo(int index, int ha) {$/;"	f	class:ServerInfoManager
+setHwDataChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::setHwDataChassisInfo(int index, int hwindex, int fanStatus, int powerStatus, int diskStatus, const char *netName,  int netStatus)$/;"	f	class:ChassisInfoManager
+setModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::setModuleInfo(int asindex, int moindex, int moduleId, int serverCode, int serverId, const char *asName, const char *moduleName, const char *serverName)$/;"	f	class:ModuleInfoManager
+setMsConfigInfo	OAMS_data.cpp	/^void MsConfigInfoManager::setMsConfigInfo(int index, const MS_CONFIG_INFO& info) {$/;"	f	class:MsConfigInfoManager
+setNtpPerformance	OAMS_data.cpp	/^void PerformanceManager::setNtpPerformance(int index, int ntp) {$/;"	f	class:PerformanceManager
+setOverLoadASInfo	OAMS_data.cpp	/^void AsInfoManager::setOverLoadASInfo(int index, int overload){$/;"	f	class:AsInfoManager
+setRebuildAndHWServerInfo	OAMS_data.cpp	/^void ServerInfoManager::setRebuildAndHWServerInfo(int index, int rebuild, const HW& hw) {$/;"	f	class:ServerInfoManager
+setResourcePerformance	OAMS_data.cpp	/^void PerformanceManager::setResourcePerformance(int index, int cpu, int memory, int network, int disk, int channel_count) {$/;"	f	class:PerformanceManager
+setServerInfo	OAMS_data.cpp	/^void ServerInfoManager::setServerInfo(int index, int serverId, int asId, const char *asName, int chassisId, const char *serverName, int serverType, int serverCode, const char *ip)$/;"	f	class:ServerInfoManager
+setSswConfigInfo	OAMS_data.cpp	/^void SswConfigInfoManager::setSswConfigInfo(int index, const SSW_CONFIG_INFO& info) {$/;"	f	class:SswConfigInfoManager
+setSswStatusInfo	OAMS_data.cpp	/^void SswConfigInfoManager::setSswStatusInfo(int index, int status) {$/;"	f	class:SswConfigInfoManager
+setStatusChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::setStatusChassisInfo(int index, int hwindex, int ha, int status)$/;"	f	class:ChassisInfoManager
+setStatusModuleInfo	OAMS_data.cpp	/^void ModuleInfoManager::setStatusModuleInfo(int asindex, int moindex, int state) {$/;"	f	class:ModuleInfoManager
+setSvcAsStatsInfo	OAMS_data.cpp	/^void AsStatsInfoManager::setSvcAsStatsInfo(int index, const char *service_key,  int tot_ch, int use_ch, int total_usage, int complete_rate)$/;"	f	class:AsStatsInfoManager
+setSwitchStatusChassisInfo	OAMS_data.cpp	/^void ChassisInfoManager::setSwitchStatusChassisInfo(int index, int hwindex, int switchStatus)$/;"	f	class:ChassisInfoManager
+setSystemResourceStat	OAMS_data.cpp	/^void SystemResourceStatManager::setSystemResourceStat(int index, const char *type, int value) {$/;"	f	class:SystemResourceStatManager
+setTableSpacePerformance	OAMS_data.cpp	/^void PerformanceManager::setTableSpacePerformance(int serveridx, int tsIdx, const char* tsName, int use) {$/;"	f	class:PerformanceManager
+setTemperaturePerformance	OAMS_data.cpp	/^void PerformanceManager::setTemperaturePerformance(int serveridx, int temperature) {$/;"	f	class:PerformanceManager
+setThresHoldInfo	OAMS_data.cpp	/^void ThresholdInfoManager::setThresHoldInfo(const char *type, int critical, int major, int minor, int warning) {$/;"	f	class:ThresholdInfoManager
+set_config_oams	OAMS_define.h	/^typedef struct set_config_oams$/;"	s
+set_debug	LIB_nsmlog.cpp	/^void NSM_LOG::set_debug()$/;"	f	class:NSM_LOG
+set_level	LIB_nsmlog.cpp	/^void NSM_LOG::set_level(int8_t nLevel)$/;"	f	class:NSM_LOG
+set_max_limit	LIB_nsmlog.cpp	/^bool NSM_LOG::set_max_limit(uint32_t nLimit)$/;"	f	class:NSM_LOG
+set_mmc_response	OAMS_xbus.cpp	/^void set_mmc_response(MMCPDU* msg) {$/;"	f
+set_mmchead	OAMS_xbus.cpp	/^void set_mmchead(MMCHD* response, MMCHD* request, int len, bool bContinue)$/;"	f
+shut_down	OAMS_common.cpp	/^void shut_down(int reason)$/;"	f
+side	OAMS_define.h	/^    BYTE    side;   \/\/A(0), B(1), ALL(2)                                                                       $/;"	m	struct:__anon57
+side	OAMS_define.h	/^    BYTE    side;$/;"	m	struct:__anon32
+side	OAMS_define.h	/^    BYTE    side;$/;"	m	struct:__anon55
+side	OAMS_define.h	/^    BYTE    side;$/;"	m	struct:__anon56
+side	OAMS_define.h	/^    BYTE    side;$/;"	m	struct:__anon58
+sqlBindExcute	OAMS_altiCInf.cpp	/^int AltiCinf::sqlBindExcute(SqlRequest SQLRecv)$/;"	f	class:AltiCinf
+sqlQueue	OAMS_altiCInf.h	/^	CQueueBase<SqlRequest *> sqlQueue;$/;"	m	class:AltiCinf
+sqlSelect	OAMS_altiCInf.cpp	/^vector<map<string, string>> AltiCinf::sqlSelect(const char* sql)$/;"	f	class:AltiCinf
+sswconfigInfo	OAMS_data.h	/^    SSW_CONFIG_INFO sswconfigInfo[MAX_SSW];$/;"	m	class:SswConfigInfoManager
+sswconfigInfoManager	OAMS_common.cpp	/^SswConfigInfoManager sswconfigInfoManager;$/;"	v
+stAsModId	OAMS_data.h	/^struct stAsModId{$/;"	s
+stChassisServerId	OAMS_data.h	/^struct stChassisServerId{$/;"	s
+startAlarmMetrics	OAMS_exporter.cpp	/^void CExporter::startAlarmMetrics(const char* ip, const char* port) {$/;"	f	class:CExporter
+startAndMonitorServer	OAMS_exporter.cpp	/^void CExporter::startAndMonitorServer(const char* ip, const char* port) {$/;"	f	class:CExporter
+startAndMonitorServerWrapper	OAMS_exporter.cpp	/^void* startAndMonitorServerWrapper(void* arg) {$/;"	f
+startEmsCheckMonitor	OAMS_monitor.cpp	/^void startEmsCheckMonitor()$/;"	f
+startFixMetrics	OAMS_exporter.cpp	/^void CExporter::startFixMetrics(const char* ip, const char* port) {$/;"	f	class:CExporter
+startMGM_IF	OAMS_mgm.cpp	/^void startMGM_IF()$/;"	f
+startPrometheusServer	OAMS_exporter.cpp	/^bool CExporter::startPrometheusServer(const char* ip, const char* port) {$/;"	f	class:CExporter
+startXbusMsg	OAMS_xbus.cpp	/^void startXbusMsg()$/;"	f
+state_flag	OAMS_data.h	/^    bool state_flag;$/;"	m	struct:__anon25
+statisticManager	OAMS_common.cpp	/^StatisticManager	statisticManager;$/;"	v
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon11
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon14
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon17
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon24
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon26
+status	OAMS_data.h	/^    int status;$/;"	m	struct:__anon27
+strATS	OAMS_define.h	/^const char strATS[2][8] = { "ATOAM", "ATM"};$/;"	v
+strCMS	OAMS_define.h	/^const char strCMS[4][8] = { "COAM", "SCM", "SPY", "DBM" };$/;"	v
+strDBS	OAMS_define.h	/^const char strDBS[4][8] = { "DOAM", "DBM", "MMDB", "ODB" };$/;"	v
+strEMS	OAMS_define.h	/^const char strEMS[13][8] = { "EOAM","MMCM","CSIM","WAPM","CDRM","ATIM","ORACLE","LISTNER","WAS","AXIS","FNGW","CCSM","NMSIF" };$/;"	v
+strGMS	OAMS_define.h	/^const char strGMS[9][8] = { "GOAM","CDRG","SMSG","PINTG","NPDBG","ENUMG","CCSG", "OAPIG","SOAPG" };$/;"	v
+strOMS	OAMS_define.h	/^const char strOMS[5][8] = { "OOAM", "CGM", "DGM","MGM","SGM"};$/;"	v
+strPS	OAMS_define.h	/^const char strPS[100][8] = { "COAM", "SCM", "SPY", "DBM", "CGM", "DGM", "MGM", "SGM", "SAM", "SRM"};$/;"	v
+strSES	OAMS_define.h	/^const char strSES[3][8] = { "SOAM", "SAM", "SRM" };$/;"	v
+strValue	OAMS_altiCInf.h	/^        char strValue[256];  \/\/ ���ڿ� (���� ũ��)$/;"	m	union:BindParam::__anon2
+string	OAMS_define.h	/^    BYTE string[64];         $/;"	m	struct:__anon40
+sumBusy	OAMS_data.h	/^    unsigned long sumBusy;$/;"	m	struct:__anon21
+sumTotal	OAMS_data.h	/^    unsigned long sumTotal;$/;"	m	struct:__anon21
+svrId	OAMS_alarm.h	/^	int 	svrId;$/;"	m	struct:AlarmInfo
+svr_code	OAMS_define.h	/^    int svr_code;$/;"	m	struct:__anon52
+svr_name	OAMS_define.h	/^    char svr_name[10];$/;"	m	struct:__anon52
+switchStatus	OAMS_data.h	/^    int switchStatus[MAX_HW];$/;"	m	struct:__anon16
+sync_count	OAMS_data.h	/^    int sync_count;$/;"	m	struct:__anon13
+system	OAMS_data.h	/^	char system[SYSTEM_NAME_LEN];$/;"	m	struct:__anon26
+systemName	OAMS_data.h	/^    char systemName[SYSTEM_NAME_LEN];$/;"	m	struct:__anon24
+systemName	OAMS_data.h	/^    char systemName[SYSTEM_NAME_LEN];$/;"	m	struct:__anon25
+systemName	OAMS_data.h	/^    char systemName[SYSTEM_NAME_LEN];$/;"	m	struct:__anon26
+systemName	OAMS_data.h	/^    char systemName[SYSTEM_NAME_LEN];$/;"	m	struct:__anon27
+systemName	OAMS_data.h	/^    char systemName[SYSTEM_NAME_LEN];$/;"	m	struct:__anon28
+systemRscStatProcess	OAMS_stat.cpp	/^void StatisticManager::systemRscStatProcess()$/;"	f	class:StatisticManager
+system_type	OAMS_data.h	/^    int system_type;$/;"	m	struct:__anon26
+systemresourceStat	OAMS_data.h	/^    SYSTEM_RESOURCE_STAT systemresourceStat[MAX_SERVER];$/;"	m	class:SystemResourceStatManager
+systemresourcestatManager	OAMS_common.cpp	/^SystemResourceStatManager  systemresourcestatManager;$/;"	v
+tablespace	OAMS_data.h	/^    TABLESPACE_INFO tablespace[MAX_TS];$/;"	m	struct:__anon13
+tablespace	OAMS_data.h	/^    int tablespace[4];    \/\/ 테이블스페이스 임계치$/;"	m	struct:__anon23
+tempASID	OAMS_mgm.h	/^static int tempASID[MAX_AS];$/;"	v
+temperature	OAMS_data.h	/^    int temperature;$/;"	m	struct:__anon13
+temperature	OAMS_data.h	/^    int temperature[4];   \/\/ 온도 임계치$/;"	m	struct:__anon23
+temperature_summery	OAMS_data.h	/^    STAT_SUMMERY temperature_summery;$/;"	m	struct:__anon22
+test	OAMS_altiCInf.cpp	/^bool AltiCinf::test(int a, int b, int c)$/;"	f	class:AltiCinf
+test_select	OAMS_altiCInf.h	/^} test_select;$/;"	t	typeref:struct:__anon3
+thread1	OAMS_altiCInf.h	/^	pthread_t thread1, thread2;$/;"	m	class:AltiCinf
+thread2	OAMS_altiCInf.h	/^	pthread_t thread1, thread2;$/;"	m	class:AltiCinf
+thresholdInfo	OAMS_data.h	/^    THRESHOLD_INFO thresholdInfo;$/;"	m	class:ThresholdInfoManager
+thresholdInfoManager	OAMS_common.cpp	/^ThresholdInfoManager thresholdInfoManager;$/;"	v
+tidStat5M	OAMS_stat.h	/^	pthread_t tidStat5M;$/;"	m	class:StatisticManager
+time	OAMS_define.h	/^    int time;           \/\/ time()$/;"	m	struct:__anon39
+tot_ch	OAMS_data.h	/^    int  tot_ch;$/;"	m	struct:__anon20
+total	OAMS_data.h	/^	int total;$/;"	m	struct:__anon19
+totalCnt	OAMS_extern.h	/^	int totalCnt;$/;"	m	struct:__anon1
+total_usage	OAMS_data.h	/^    int  total_usage;$/;"	m	struct:__anon20
+trim	OAMS_common.cpp	/^void trim(char* str) {$/;"	f
+type	OAMS_altiCInf.h	/^    BindType type;    \/\/ ������ Ÿ��$/;"	m	class:BindParam
+type	OAMS_data.h	/^    int type;$/;"	m	struct:__anon25
+type	OAMS_exporter.h	/^    int type;                  \/\/ 메시지 타입 (1이면 alm, 다른 값이면 hst 등)$/;"	m	struct:__anon9
+uint	CQueueBase.h	/^typedef unsigned int uint;$/;"	t	class:CQueueBase
+updateEmsModule	OAMS_monitor.cpp	/^void updateEmsModule(const char* moduleName)$/;"	f
+use	OAMS_data.h	/^    bool use;$/;"	m	struct:__anon16
+use	OAMS_data.h	/^    bool use;$/;"	m	struct:__anon18
+use	OAMS_data.h	/^    int use;$/;"	m	struct:__anon10
+use_ch	OAMS_data.h	/^    int  use_ch;$/;"	m	struct:__anon20
+use_flag	OAMS_data.h	/^    int use_flag;$/;"	m	struct:__anon27
+value	OAMS_exporter.h	/^    char value[MAX_LABEL_VALUE_LEN];$/;"	m	struct:__anon7
+wait_for_event_from_mgm	OAMS_mgm.cpp	/^void wait_for_event_from_mgm(int asId, int iMgmFd) {$/;"	f
+warning	LIB_nsmlog.cpp	/^void NSM_LOG::warning(const char *fmt, ...)$/;"	f	class:NSM_LOG
+warning_count	OAMS_data.h	/^    int warning_count;$/;"	m	struct:__anon17
+warning_count	OAMS_data.h	/^    int warning_count;$/;"	m	struct:__anon18
+xbus_process_message	OAMS_xbus.cpp	/^void xbus_process_message(int len, void *rmsg_p)$/;"	f
+xbusid_Map	OAMS_common.cpp	/^std::map<stAsModId, stChassisServerId*>    xbusid_Map;$/;"	v
+xcon	OAMS_xbus.cpp	/^pthread_cond_t  xcon = PTHREAD_COND_INITIALIZER;$/;"	v
+xmut	OAMS_xbus.cpp	/^pthread_mutex_t xmut = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+xwait_flag	OAMS_xbus.cpp	/^int         xwait_flag;$/;"	v
+~AlarmManager	OAMS_alarm.cpp	/^AlarmManager::~AlarmManager()$/;"	f	class:AlarmManager
+~AltiCinf	OAMS_altiCInf.cpp	/^AltiCinf::~AltiCinf() $/;"	f	class:AltiCinf
+~CConfig	OAMS_config.cpp	/^CConfig::~CConfig()$/;"	f	class:CConfig
+~CExporter	OAMS_exporter.cpp	/^CExporter::~CExporter() {}$/;"	f	class:CExporter
+~CHWMonitor	OAMS_hwmon.cpp	/^CHWMonitor::~CHWMonitor()$/;"	f	class:CHWMonitor
+~CQueueBase	CQueueBase.h	/^    virtual ~CQueueBase() { DeleteAll(); pthread_mutex_destroy(&m_pMutex); }$/;"	f	class:CQueueBase
+~ClimitProcess	OAMS_limit.cpp	/^ClimitProcess::~ClimitProcess() {}$/;"	f	class:ClimitProcess
+~ExternServerManager	OAMS_extern.cpp	/^ExternServerManager::~ExternServerManager()$/;"	f	class:ExternServerManager
+~NSM_LOG	LIB_nsmlog.cpp	/^NSM_LOG::~NSM_LOG(void)$/;"	f	class:NSM_LOG
+~StatisticManager	OAMS_stat.cpp	/^StatisticManager::~StatisticManager()$/;"	f	class:StatisticManager
