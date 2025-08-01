@@ -32,16 +32,16 @@ enum class BindType { INT, STRING, MAXBIND };
 enum class QueryType { DIRECT, BIND };
 
 
-// 바인드 변수 구조체
+
 class BindParam {
 private:
 
 public:
-    int index;        // 바인드 위치
-    BindType type;    // 데이터 타입
+    int index;        
+    BindType type;    
     union {
         int intValue;
-        char strValue[256];  // 문자열 (고정 크기)
+        char strValue[256]; 
     };
 
     BindParam(int idx, int value) : index(idx), type(BindType::INT), intValue(value) {}
@@ -55,7 +55,7 @@ public:
 
 
 
-// SQL 요청을 저장하는 구조체
+
 struct SqlRequest {
     string query;
     vector<BindParam> bindParams;
