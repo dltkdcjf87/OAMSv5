@@ -1,14 +1,12 @@
 #include "OAMS_altiCInf.h"
 
-//»ý¼ºÀÚ
 AltiCinf::AltiCinf()  
 {
 	m_bConnected = false;
     length[static_cast<int>(BindType::INT)] = sizeof(int);
-    length[static_cast<int>(BindType::STRING)] = ALTIBASE_NTS; //type Ãß°¡½Ã length Ãß°¡ÇØÁÖ¾î¾ßÇÔ.
+    length[static_cast<int>(BindType::STRING)] = ALTIBASE_NTS;
 }
 
-//¼Ò¸êÀÚ
 AltiCinf::~AltiCinf() 
 {
 	altibase_close(altibase);
@@ -99,7 +97,7 @@ void AltiCinf::dbQueueProcessThread()
 
 
 
-//DB DISCONNECT½Ã CONNECT RETRY
+//DB DISCONNECTì‹œ CONNECT RETRY
 
 void* AltiCinf::connectCheckThread(void* arg)
 {
@@ -307,7 +305,7 @@ bool AltiCinf::bindQueryExcute(SqlRequest *request)
 /*
 	ALTIBASE_LONG length[static_cast<int>(BindType::MAXBIND)];
 	length[static_cast<int>(BindType::INT)] = sizeof(int);
-	length[static_cast<int>(BindType::STRING)] = ALTIBASE_NTS; //type Ãß°¡½Ã length Ãß°¡ÇØÁÖ¾î¾ßÇÔ.
+	length[static_cast<int>(BindType::STRING)] = ALTIBASE_NTS; 
 */
 
 	ALTIBASE_STMT   altibaseBindStmt;
